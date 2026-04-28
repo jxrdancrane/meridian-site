@@ -167,6 +167,7 @@
   .fc-vnum { font-family: var(--serif); font-weight: 400; font-size: 56px; line-height: 0.95; letter-spacing: -0.04em; color: var(--paper); }
   .fc-vnum .unit { font-style: italic; font-size: 0.32em; color: rgba(240,238,230,0.65); margin-left: 8px; letter-spacing: 0; }
   .fc-vnote { font-size: 14px; color: rgba(240,238,230,0.78); line-height: 1.45; margin-top: 12px; max-width: 32ch; }
+  .fc-vtgt { display: none; }
   .fc-mini-chart { position: relative; z-index: 1; height: 72px; margin: 18px 0 14px; }
   .fc-mini-chart svg { width: 100%; height: 100%; }
   .fc-read-block { position: relative; z-index: 1; padding-top: 18px; border-top: 1px solid rgba(240,238,230,0.2); }
@@ -3594,30 +3595,35 @@
     .nav-right { display: none; }
     .nav-hamburger { display: grid; }
     .subnav { display: none; }
+    .developing-strip { scroll-margin-top: 65px; }
+    .car-progress { display: none; }
     .featured-wrap, .home-main .featured-wrap { padding-left: 12px; padding-right: 12px; }
     .agg-section, .live-forecasts, .latest-section, .article-wrap { padding-left: 18px; padding-right: 18px; }
     .home-main .agg-section, .home-main .live-forecasts, .home-main .latest-section { padding-left: 18px; padding-right: 18px; }
     .article-related, .footer { padding-left: 18px; padding-right: 18px; }
     .feat-card { grid-template-columns: 1fr; min-height: 0; min-width: 0; overflow: hidden; }
-    .feat-card-body { border-right: none; border-bottom: 1px solid var(--rule); padding: 18px; min-width: 0; }
-    .fc-top { gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+    .feat-card-body { border-right: none; border-bottom: 1px solid var(--rule); padding: 16px; min-width: 0; }
+    .fc-top { gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
     .fc-tier { font-size: 10px; padding: 3px 7px; letter-spacing: 0.08em; }
     .fc-vert { font-size: 10px; }
     .fc-time { font-size: 10px; }
-    .fc-headline { font-size: 20px; line-height: 1.2; margin-bottom: 10px; }
-    .fc-stand { font-size: 13px; line-height: 1.45; margin-bottom: 14px; max-width: none; }
-    .fc-bottom { padding-top: 12px; gap: 10px; min-width: 0; }
+    .fc-headline { font-size: 18px; line-height: 1.2; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .fc-stand { font-size: 12.5px; line-height: 1.4; margin-bottom: 12px; max-width: none; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .fc-bottom { padding-top: 10px; gap: 10px; min-width: 0; }
     .fc-srcs { font-size: 11px; flex-wrap: nowrap; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; min-width: 0; flex: 1; }
     .fc-srcs strong { display: inline; margin-right: 6px; }
-    .fc-read { font-size: 12px; flex-shrink: 0; }
-    .fc-visual { padding: 16px; }
-    .fc-vkey { font-size: 10.5px; margin-bottom: 10px; }
-    .fc-vnum { font-size: 36px; }
-    .fc-vnote { font-size: 12px; line-height: 1.4; margin-top: 8px; max-width: none; }
-    .fc-mini-chart { height: 60px; max-height: 60px; margin: 12px 0 8px; }
-    .fc-read-block { padding-top: 12px; }
-    .fc-read-text { font-size: 13px; line-height: 1.4; }
-    .fc-read-lab { font-size: 10.5px; margin-bottom: 6px; }
+    .fc-read { font-size: 11px; flex-shrink: 0; }
+    .fc-visual { padding: 10px 14px; flex-direction: column; gap: 4px; min-height: 0; }
+    .fc-visual-top { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; flex: 1; min-width: 0; }
+    .fc-vkey { flex-basis: 100%; width: 100%; font-size: 10px; margin-bottom: 0; letter-spacing: 0.08em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .fc-vkey .badge { display: none; }
+    .fc-vnum { font-family: var(--mono); font-size: 13px; line-height: 1; letter-spacing: 0; flex-shrink: 0; white-space: nowrap; }
+    .fc-vnum .unit { font-size: 10.5px; margin-left: 4px; font-style: normal; }
+    .fc-vtgt { display: inline-flex; align-items: center; gap: 4px; font-family: var(--mono); font-size: 13px; color: var(--paper); flex-shrink: 0; white-space: nowrap; }
+    .fc-vtgt::before { content: '→'; color: var(--accent); font-size: 14px; font-weight: 500; margin-right: 2px; }
+    .fc-vnote { display: none; }
+    .fc-mini-chart { width: 50px; height: 18px; max-height: 18px; min-height: 18px; margin: 0 0 0 auto; flex-shrink: 0; flex: 0 0 50px; }
+    .fc-read-block { display: none; }
     .footer-grid { grid-template-columns: 1fr; gap: 32px; }
     .lf-grid { grid-template-columns: 1fr; }
     .article-headline { font-size: 32px; }
@@ -3786,6 +3792,7 @@
             <div class="fc-visual-top">
               <div class="fc-vkey">Lloyd's PH War-Risk · 7-day <span class="badge">Forecast</span></div>
               <div class="fc-vnum">+12<span class="unit">bp now</span></div>
+              <span class="fc-vtgt">+18 bp</span>
               <div class="fc-vnote">Forecast: +18 bp ± 6 by 25 April. Insurance has not finished pricing this.</div>
               <div class="fc-mini-chart">
                 <svg viewBox="0 0 280 60" preserveAspectRatio="none">
@@ -3824,6 +3831,7 @@
             <div class="fc-visual-top">
               <div class="fc-vkey">AUD/USD · 7-day <span class="badge">Forecast</span></div>
               <div class="fc-vnum">0.6492<span class="unit">−0.42%</span></div>
+              <span class="fc-vtgt">0.6510</span>
               <div class="fc-vnote">Forecast: 0.6510 ± 0.0040. Pause is largely priced; further softness unlikely without payrolls miss.</div>
               <div class="fc-mini-chart">
                 <svg viewBox="0 0 280 60" preserveAspectRatio="none">
@@ -3862,6 +3870,7 @@
             <div class="fc-visual-top">
               <div class="fc-vkey">Copper LME · 7-day <span class="badge">Forecast</span></div>
               <div class="fc-vnum">$11,402<span class="unit">+2.04%</span></div>
+              <span class="fc-vtgt">$11,720</span>
               <div class="fc-vnote">Forecast: $11,720 ± $310. Tightness suggests upside is the path of least resistance.</div>
               <div class="fc-mini-chart">
                 <svg viewBox="0 0 280 60" preserveAspectRatio="none">
@@ -3900,6 +3909,7 @@
             <div class="fc-visual-top">
               <div class="fc-vkey">Mention velocity · 48h <span class="badge">Forecast</span></div>
               <div class="fc-vnum">+340<span class="unit">% vs base</span></div>
+              <span class="fc-vtgt">peak 20h</span>
               <div class="fc-vnote">Story is accelerating. Forecast peak in 18–22h. Watch for European policy responses.</div>
               <div class="fc-mini-chart">
                 <svg viewBox="0 0 280 60" preserveAspectRatio="none">
