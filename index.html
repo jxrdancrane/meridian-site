@@ -1730,7 +1730,15 @@
   @media (max-width: 1180px) {
     .home-with-rail { grid-template-columns: 1fr; }
     .activity-rail { position: relative; top: 0; max-height: 600px; border-left: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
-    .developing-inner { padding: 12px 18px; }
+    .developing-inner {
+      padding: 14px 18px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .developing-label { font-size: 10.5px; }
+    .developing-text { font-size: 13.5px; line-height: 1.45; width: 100%; }
+    .developing-meta { font-size: 11px; }
     .home-main .featured-wrap,
     .home-main .agg-section,
     .home-main .live-forecasts,
