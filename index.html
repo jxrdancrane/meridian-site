@@ -71,6 +71,38 @@
   .nav-search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 14px; height: 14px; color: var(--ink-mute); }
   .nav-search-kbd { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); font-family: var(--mono); font-size: 11.5px; color: var(--ink-mute); border: 1px solid var(--rule); padding: 1px 6px; background: var(--paper); letter-spacing: 0.04em; }
   .nav-right { display: flex; gap: 10px; align-items: center; }
+  .nav-hamburger { display: none; background: none; border: none; padding: 0; width: 40px; height: 40px; place-items: center; cursor: pointer; color: var(--ink); }
+  .nav-hamburger svg { width: 24px; height: 24px; }
+  .mobile-menu { position: fixed; inset: 0; z-index: 200; pointer-events: none; visibility: hidden; }
+  .mobile-menu.open { pointer-events: auto; visibility: visible; }
+  .mobile-menu-backdrop { position: absolute; inset: 0; background: rgba(20,20,19,0.42); opacity: 0; transition: opacity 0.25s ease-out; }
+  .mobile-menu.open .mobile-menu-backdrop { opacity: 1; }
+  .mobile-menu-panel { position: absolute; top: 0; right: 0; bottom: 0; width: 86%; max-width: 360px; background: var(--paper); transform: translateX(100%); transition: transform 0.25s ease-out; display: flex; flex-direction: column; box-shadow: -8px 0 24px rgba(20,20,19,0.08); }
+  .mobile-menu.open .mobile-menu-panel { transform: translateX(0); }
+  .mobile-menu-head { display: flex; justify-content: space-between; align-items: center; padding: 18px 20px; border-bottom: 1px solid var(--rule); }
+  .mobile-menu-close { width: 32px; height: 32px; background: none; border: none; cursor: pointer; color: var(--ink); padding: 0; display: grid; place-items: center; }
+  .mobile-menu-close svg { width: 24px; height: 24px; }
+  .mobile-menu-list { flex: 1; overflow-y: auto; display: flex; flex-direction: column; }
+  .mobile-menu-item { display: flex; align-items: center; height: 56px; padding: 0 20px; font-size: 17px; color: var(--ink); border-bottom: 1px solid var(--rule); cursor: pointer; text-decoration: none; -webkit-tap-highlight-color: transparent; }
+  .mobile-menu-item.active { font-family: var(--serif); font-style: italic; }
+  .mobile-menu-foot { padding: 24px 20px; display: flex; flex-direction: column; gap: 10px; border-top: 1px solid var(--rule); }
+  .mobile-menu-foot .btn { width: 100%; white-space: nowrap; justify-content: center; }
+  body.menu-open { overflow: hidden; }
+
+  /* Vertical switcher (Affairs/Business/Culture) */
+  .vertical-switcher { padding: 14px 32px 6px; max-width: 1440px; margin: 0 auto; }
+  .vs-tabs { display: none; }
+  .vs-dropdown { position: relative; display: inline-block; }
+  .vs-toggle { background: var(--paper); border: 1px solid var(--rule); padding: 7px 12px; font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
+  .vs-toggle:hover { border-color: var(--ink); }
+  .vs-toggle svg { width: 12px; height: 12px; transition: transform 0.15s; }
+  .vs-dropdown.open .vs-toggle svg { transform: rotate(180deg); }
+  .vs-menu { position: absolute; top: calc(100% + 4px); left: 0; min-width: 200px; background: var(--paper); border: 1px solid var(--rule); box-shadow: 0 8px 24px rgba(20,20,19,0.08); display: none; z-index: 30; }
+  .vs-dropdown.open .vs-menu { display: block; }
+  .vs-option { display: block; padding: 11px 14px; font-size: 13.5px; color: var(--ink); cursor: pointer; text-decoration: none; border-bottom: 1px solid var(--rule-soft); }
+  .vs-option:last-child { border-bottom: none; }
+  .vs-option.active { font-family: var(--serif); font-style: italic; }
+  .vs-option:hover { background: var(--paper-warm); }
   .btn { font-size: 13.5px; padding: 8px 16px; font-weight: 450; transition: all 0.15s; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
   .btn-ghost { color: var(--ink); background: transparent; border: 1px solid var(--rule); }
   .btn-ghost:hover { background: var(--paper-deep); border-color: var(--ink); }
@@ -1353,7 +1385,19 @@
     .filter-row { padding: 16px 18px; }
     .vertical-feature { padding: 32px 18px; }
     .vl-section, .watch-category, .dossiers-wrap, .archive-wrap { padding-left: 18px; padding-right: 18px; }
-    .watch-full-grid { grid-template-columns: 1fr; }
+    .watch-full-grid { grid-template-columns: 1fr; gap: 0; background: transparent; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+    .watch-full-cell { display: flex; align-items: center; gap: 12px; padding: 0 18px; height: 56px; border-bottom: 1px solid var(--rule-soft); background: var(--paper); }
+    .watch-full-cell:last-child { border-bottom: none; }
+    .wfc-head { display: flex; flex: 1; min-width: 0; margin-bottom: 0; align-items: stretch; justify-content: flex-start; }
+    .wfc-head > div:first-child { display: flex; flex-direction: column; gap: 2px; min-width: 0; width: 100%; }
+    .wfc-tag { display: none; }
+    .wfc-name { font-size: 14px; margin-bottom: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .wfc-cat { font-size: 10.5px; }
+    .wfc-now { display: flex; flex-direction: column; align-items: flex-end; justify-content: center; gap: 2px; margin-bottom: 0; flex: 0 0 auto; }
+    .wfc-price { font-size: 16px; }
+    .wfc-delta { font-size: 11.5px; }
+    .wfc-chart { width: 60px; height: 24px; flex: 0 0 60px; margin-bottom: 0; padding-top: 0; }
+    .wfc-fc { display: none; }
     .dossier-grid { grid-template-columns: 1fr; }
     .dossier-card { border-right: none; border-bottom: 1px solid var(--rule); }
     .dossier-card:last-child { border-bottom: none; }
@@ -3540,11 +3584,32 @@
   @media (max-width: 720px) {
     .nav { padding: 12px 18px; grid-template-columns: 1fr auto; }
     .nav-search { display: none; }
-    .featured-wrap, .agg-section, .live-forecasts, .latest-section, .article-wrap { padding-left: 18px; padding-right: 18px; }
+    .nav-right { display: none; }
+    .nav-hamburger { display: grid; }
+    .subnav { display: none; }
+    .featured-wrap { padding-left: 12px; padding-right: 12px; }
+    .agg-section, .live-forecasts, .latest-section, .article-wrap { padding-left: 18px; padding-right: 18px; }
     .article-related, .footer { padding-left: 18px; padding-right: 18px; }
-    .feat-card { grid-template-columns: 1fr; }
-    .feat-card-body { border-right: none; border-bottom: 1px solid var(--rule); padding: 28px 24px; }
-    .fc-visual { padding: 24px; }
+    .feat-card { grid-template-columns: 1fr; min-height: 0; }
+    .feat-card-body { border-right: none; border-bottom: 1px solid var(--rule); padding: 18px; }
+    .fc-top { gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+    .fc-tier { font-size: 10px; padding: 3px 7px; letter-spacing: 0.08em; }
+    .fc-vert { font-size: 10px; }
+    .fc-time { font-size: 10px; }
+    .fc-headline { font-size: 20px; line-height: 1.2; margin-bottom: 10px; }
+    .fc-stand { font-size: 13px; line-height: 1.45; margin-bottom: 14px; max-width: none; }
+    .fc-bottom { padding-top: 12px; gap: 10px; }
+    .fc-srcs { font-size: 11px; flex-wrap: nowrap; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; min-width: 0; flex: 1; }
+    .fc-srcs strong { display: inline; margin-right: 6px; }
+    .fc-read { font-size: 12px; flex-shrink: 0; }
+    .fc-visual { padding: 16px; }
+    .fc-vkey { font-size: 10.5px; margin-bottom: 10px; }
+    .fc-vnum { font-size: 36px; }
+    .fc-vnote { font-size: 12px; line-height: 1.4; margin-top: 8px; max-width: none; }
+    .fc-mini-chart { height: 60px; max-height: 60px; margin: 12px 0 8px; }
+    .fc-read-block { padding-top: 12px; }
+    .fc-read-text { font-size: 13px; line-height: 1.4; }
+    .fc-read-lab { font-size: 10.5px; margin-bottom: 6px; }
     .footer-grid { grid-template-columns: 1fr; gap: 32px; }
     .lf-grid { grid-template-columns: 1fr; }
     .article-headline { font-size: 32px; }
@@ -3559,6 +3624,14 @@
     .car-counter { padding: 0 4px; font-size: 10px; }
     .tech-pipeline { grid-template-columns: 1fr; }
     .tech-step { border-right: none; }
+    .vertical-switcher { padding: 0; position: sticky; top: 48px; z-index: 18; background: var(--paper); border-bottom: 1px solid var(--rule); }
+    .vs-dropdown { display: none; }
+    .vs-tabs { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; }
+    .vs-tab { display: flex; align-items: center; justify-content: center; height: 44px; font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-mute); background: var(--paper); border-right: 1px solid var(--rule); cursor: pointer; text-decoration: none; gap: 5px; white-space: nowrap; }
+    .vs-tab:last-child { border-right: none; }
+    .vs-tab.active { background: var(--ink); color: var(--paper); }
+    .vs-count { opacity: 0.65; font-weight: 500; }
+    .vs-tab.active .vs-count { opacity: 0.75; }
   }
 </style>
 </head>
@@ -3592,7 +3665,44 @@
     <button class="btn btn-ghost">Sign in</button>
     <button class="btn btn-primary">Request access →</button>
   </div>
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <line x1="4" y1="7" x2="20" y2="7" stroke="currentColor" stroke-width="1.6"/>
+      <line x1="4" y1="12" x2="20" y2="12" stroke="currentColor" stroke-width="1.6"/>
+      <line x1="4" y1="17" x2="20" y2="17" stroke="currentColor" stroke-width="1.6"/>
+    </svg>
+  </button>
 </nav>
+
+<!-- MOBILE MENU OVERLAY -->
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <div class="mobile-menu-backdrop" id="mobile-menu-backdrop"></div>
+  <div class="mobile-menu-panel" role="dialog" aria-label="Navigation">
+    <div class="mobile-menu-head">
+      <div class="brand-name">Meridian</div>
+      <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 6L18 18M6 18L18 6" stroke="currentColor" stroke-width="1.6"/>
+        </svg>
+      </button>
+    </div>
+    <nav class="mobile-menu-list">
+      <a class="mobile-menu-item active" data-page="home">Today</a>
+      <a class="mobile-menu-item" data-page="affairs">Affairs</a>
+      <a class="mobile-menu-item" data-page="business">Business</a>
+      <a class="mobile-menu-item" data-page="culture">Culture</a>
+      <a class="mobile-menu-item" data-page="watch">Watch list</a>
+      <a class="mobile-menu-item" data-page="dispatch">Dispatch</a>
+      <a class="mobile-menu-item" data-page="dossiers">Dossiers</a>
+      <a class="mobile-menu-item" data-page="archive">Archive</a>
+      <a class="mobile-menu-item" data-page="tech">Method</a>
+    </nav>
+    <div class="mobile-menu-foot">
+      <button class="btn btn-ghost mobile-menu-signin">Sign in</button>
+      <button class="btn btn-primary mobile-menu-cta">Request access →</button>
+    </div>
+  </div>
+</div>
 
 <!-- SUBNAV -->
 <div class="subnav">
@@ -5191,6 +5301,25 @@
     </div>
   </section>
 
+  <div class="vertical-switcher">
+    <div class="vs-tabs">
+      <a class="vs-tab active" data-page="affairs">Affairs<span class="vs-count">· 18</span></a>
+      <a class="vs-tab" data-page="business">Business<span class="vs-count">· 22</span></a>
+      <a class="vs-tab" data-page="culture">Culture<span class="vs-count">· 7</span></a>
+    </div>
+    <div class="vs-dropdown">
+      <button class="vs-toggle" aria-haspopup="true" aria-expanded="false">
+        <span class="vs-label">Affairs</span>
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="1.6"/></svg>
+      </button>
+      <div class="vs-menu" role="menu">
+        <a class="vs-option active" data-page="affairs">Affairs · 18</a>
+        <a class="vs-option" data-page="business">Business · 22</a>
+        <a class="vs-option" data-page="culture">Culture · 7</a>
+      </div>
+    </div>
+  </div>
+
   <div class="filter-row">
     <div class="filter-label">Filter</div>
     <div class="filter-chips">
@@ -5338,6 +5467,25 @@
     </div>
   </section>
 
+  <div class="vertical-switcher">
+    <div class="vs-tabs">
+      <a class="vs-tab" data-page="affairs">Affairs<span class="vs-count">· 18</span></a>
+      <a class="vs-tab active" data-page="business">Business<span class="vs-count">· 22</span></a>
+      <a class="vs-tab" data-page="culture">Culture<span class="vs-count">· 7</span></a>
+    </div>
+    <div class="vs-dropdown">
+      <button class="vs-toggle" aria-haspopup="true" aria-expanded="false">
+        <span class="vs-label">Business</span>
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="1.6"/></svg>
+      </button>
+      <div class="vs-menu" role="menu">
+        <a class="vs-option" data-page="affairs">Affairs · 18</a>
+        <a class="vs-option active" data-page="business">Business · 22</a>
+        <a class="vs-option" data-page="culture">Culture · 7</a>
+      </div>
+    </div>
+  </div>
+
   <div class="filter-row">
     <div class="filter-label">Filter</div>
     <div class="filter-chips">
@@ -5483,6 +5631,25 @@
       </div>
     </div>
   </section>
+
+  <div class="vertical-switcher">
+    <div class="vs-tabs">
+      <a class="vs-tab" data-page="affairs">Affairs<span class="vs-count">· 18</span></a>
+      <a class="vs-tab" data-page="business">Business<span class="vs-count">· 22</span></a>
+      <a class="vs-tab active" data-page="culture">Culture<span class="vs-count">· 7</span></a>
+    </div>
+    <div class="vs-dropdown">
+      <button class="vs-toggle" aria-haspopup="true" aria-expanded="false">
+        <span class="vs-label">Culture</span>
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="1.6"/></svg>
+      </button>
+      <div class="vs-menu" role="menu">
+        <a class="vs-option" data-page="affairs">Affairs · 18</a>
+        <a class="vs-option" data-page="business">Business · 22</a>
+        <a class="vs-option active" data-page="culture">Culture · 7</a>
+      </div>
+    </div>
+  </div>
 
   <div class="filter-row">
     <div class="filter-label">Filter</div>
@@ -6974,8 +7141,59 @@
     document.querySelectorAll('.nav-tab').forEach(t => {
       t.classList.toggle('active', t.dataset.page === pageId);
     });
+    document.querySelectorAll('.mobile-menu-item').forEach(t => {
+      t.classList.toggle('active', t.dataset.page === pageId);
+    });
+    document.querySelectorAll('.vs-tab').forEach(t => {
+      t.classList.toggle('active', t.dataset.page === pageId);
+    });
     window.scrollTo({ top: 0, behavior: 'instant' });
   }
+
+  // Mobile menu
+  (function(){
+    const menuEl = document.getElementById('mobile-menu');
+    const btn = document.getElementById('nav-hamburger');
+    const closeBtn = document.getElementById('mobile-menu-close');
+    const backdrop = document.getElementById('mobile-menu-backdrop');
+    if (!menuEl || !btn) return;
+    function open() {
+      menuEl.classList.add('open');
+      menuEl.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('menu-open');
+    }
+    function close() {
+      menuEl.classList.remove('open');
+      menuEl.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('menu-open');
+    }
+    btn.addEventListener('click', open);
+    closeBtn.addEventListener('click', close);
+    backdrop.addEventListener('click', close);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && menuEl.classList.contains('open')) close(); });
+    menuEl.querySelectorAll('.mobile-menu-item').forEach(item => {
+      item.addEventListener('click', () => setTimeout(close, 50));
+    });
+    menuEl.querySelector('.mobile-menu-signin').addEventListener('click', close);
+    menuEl.querySelector('.mobile-menu-cta').addEventListener('click', close);
+  })();
+
+  // Vertical switcher dropdown (desktop)
+  document.querySelectorAll('.vs-toggle').forEach(toggle => {
+    toggle.addEventListener('click', e => {
+      e.stopPropagation();
+      const dropdown = toggle.closest('.vs-dropdown');
+      const isOpen = dropdown.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  });
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.vs-dropdown.open').forEach(d => {
+      d.classList.remove('open');
+      const t = d.querySelector('.vs-toggle');
+      if (t) t.setAttribute('aria-expanded', 'false');
+    });
+  });
   document.querySelectorAll('[data-page]').forEach(el => {
     el.addEventListener('click', (e) => {
       const target = el.dataset.page;
