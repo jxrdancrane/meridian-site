@@ -8199,6 +8199,200 @@
       addWatchBtn.style.borderColor = 'var(--good)';
     });
   }
+
+  // ============ BRIEFS.JSON HYDRATION ============
+  // Fetches site/briefs.json and replaces hardcoded carousel / latest / vertical-list
+  // content with live data. On any failure (network, 404, malformed JSON), the
+  // existing hardcoded HTML is preserved untouched. Carousel logic, asset overlay,
+  // watch list, dispatch, dossiers, access overlay, activity rail and the still-
+  // developing strip are NOT touched.
+  (async function hydrateBriefs() {
+    let payload;
+    try {
+      const res = await fetch('briefs.json', { cache: 'no-cache' });
+      if (!res.ok) throw new Error('http ' + res.status);
+      payload = await res.json();
+      if (!payload || !Array.isArray(payload.all)) throw new Error('malformed payload');
+    } catch (err) {
+      console.warn('[meridian] briefs.json hydrate skipped:', err);
+      return;
+    }
+    window.MERIDIAN_BRIEFS = payload;
+
+    const featured = Array.isArray(payload.featured) ? payload.featured : [];
+    const all = Array.isArray(payload.all) ? payload.all : [];
+    const byVert = (payload.by_vertical && typeof payload.by_vertical === 'object') ? payload.by_vertical : {};
+
+    const briefById = new Map();
+    const stash = (b) => { if (b && b.id) briefById.set(b.id, b); };
+    all.forEach(stash);
+    featured.forEach(stash);
+    Object.values(byVert).forEach(arr => Array.isArray(arr) && arr.forEach(stash));
+
+    const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const escUrl = (u) => {
+      const s = String(u == null ? '' : u);
+      try { return encodeURI(s).replace(/"/g, '%22').replace(/'/g, '%27'); }
+      catch (_) { return ''; }
+    };
+    const sourcesInline = (b) => {
+      if (b && Array.isArray(b.sources) && b.sources.length) {
+        return b.sources.slice(0, 4).map(s => {
+          const label = esc(s.publisher || s.domain || '');
+          if (!label) return '';
+          if (s.url) return '<a href="' + escUrl(s.url) + '" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">' + label + '</a>';
+          return label;
+        }).filter(Boolean).join(' · ');
+      }
+      if (b && b.sources_inline) return esc(b.sources_inline);
+      return '';
+    };
+    const timeOf = (b) => {
+      const d = b && b.time_display ? String(b.time_display) : '';
+      const m = d.match(/^(\d{1,2}:\d{2})/);
+      return m ? m[1] : d;
+    };
+    const dateOf = (b) => {
+      if (!b || !b.written_at) return '';
+      try {
+        return new Intl.DateTimeFormat('en-AU', { day: '2-digit', month: 'short', timeZone: 'Australia/Sydney' }).format(new Date(b.written_at));
+      } catch (_) { return ''; }
+    };
+    const statusPill = (tag) => {
+      const t = String(tag || '').toLowerCase();
+      const cls = t.includes('analy') ? 'pill accent'
+        : t.includes('confirm') ? 'pill confirmed'
+        : 'pill';
+      return '<span class="' + cls + '">' + esc(tag || 'CONFIRMED') + '</span>';
+    };
+    const vertSub = (b) => esc(b && (b.vertical || '') ) + (b && b.topic ? ' · ' + esc(b.topic) : '');
+
+    // ---- CAROUSEL: rewrite each .feat-card-body in place; do not touch counts ----
+    const track = document.getElementById('carousel-track');
+    if (track && featured.length) {
+      const cards = Array.from(track.children);
+      const slots = Math.min(featured.length, cards.length);
+      for (let i = 0; i < slots; i++) {
+        const b = featured[i];
+        const card = cards[i];
+        card.dataset.page = 'article';
+        card.dataset.briefId = b.id;
+        const body = card.querySelector('.feat-card-body');
+        if (!body) continue;
+        body.innerHTML =
+          '<div>' +
+            '<div class="fc-top">' +
+              '<span class="fc-tier">' + esc(b.tier || 'Tier II') + '</span>' +
+              '<span class="fc-vert">' + vertSub(b) + '</span>' +
+              '<span class="fc-time">' + esc(b.time_display || '') + '</span>' +
+            '</div>' +
+            '<h3 class="fc-headline">' + (b.headline || '') + '</h3>' +
+            '<p class="fc-stand">' + esc(b.standfirst || '') + '</p>' +
+          '</div>' +
+          '<div class="fc-bottom">' +
+            '<div class="fc-srcs"><strong>Sources</strong>' + sourcesInline(b) + '</div>' +
+            '<a href="#" class="fc-read" data-brief-id="' + esc(b.id) + '">Open brief →</a>' +
+          '</div>';
+      }
+    }
+
+    // ---- LATEST: full rewrite of .latest-table rows ----
+    const latestTable = document.querySelector('.latest-section .latest-table');
+    if (latestTable && all.length) {
+      latestTable.innerHTML = all.map(b => {
+        const tierCls = b.tier === 'Tier I' ? ' tier-1' : '';
+        const tflag = b.tier === 'Tier I' ? '<span class="tflag">Tier I</span>' : '';
+        return '<div class="latest-row' + tierCls + '" data-brief-id="' + esc(b.id) + '">' +
+          '<div class="lr-time">' + esc(timeOf(b)) + '<span class="date">' + esc(dateOf(b)) + '</span></div>' +
+          '<div class="lr-vert">' + esc(b.vertical || '') + '<span class="sub">' + esc(b.topic || '') + '</span></div>' +
+          '<div class="lr-head">' + tflag + (b.headline || '') + '</div>' +
+          '<div class="lr-srcs">' + sourcesInline(b) + '</div>' +
+          '<div class="lr-status">' + statusPill(b.status_tag) + '</div>' +
+        '</div>';
+      }).join('');
+    }
+
+    // ---- VERTICAL PAGES: feature row + .vl-table rewrite (skip empty verticals) ----
+    ['Affairs', 'Business', 'Culture'].forEach(name => {
+      const items = Array.isArray(byVert[name]) ? byVert[name] : [];
+      if (!items.length) return;
+      const page = document.getElementById('page-' + name.toLowerCase());
+      if (!page) return;
+
+      const vfMain = page.querySelector('.vertical-feature .vf-main');
+      if (vfMain && items[0]) {
+        const b = items[0];
+        vfMain.dataset.briefId = b.id;
+        vfMain.innerHTML =
+          '<div class="vf-top">' +
+            '<span class="vf-tier">' + esc(b.tier || 'Tier II') + '</span>' +
+            '<span class="vf-sub">' + esc(b.topic || '') + '</span>' +
+            '<span class="vf-ts">' + esc(b.time_display || '') + '</span>' +
+          '</div>' +
+          '<h2 class="vf-head">' + (b.headline || '') + '</h2>' +
+          '<p class="vf-stand">' + esc(b.standfirst || '') + '</p>' +
+          '<div class="vf-sources"><strong>Sources</strong>' + sourcesInline(b) + '</div>';
+      }
+
+      const vfSide = page.querySelector('.vertical-feature .vf-side');
+      if (vfSide) {
+        const sides = items.slice(1, 4);
+        if (sides.length) {
+          vfSide.innerHTML = sides.map(b =>
+            '<div class="vf-side-item" data-brief-id="' + esc(b.id) + '">' +
+              '<div class="vf-side-meta"><span>' + esc(b.topic || '') + '</span><span>' + esc(b.status_tag || '') + '</span><span>' + esc(b.time_display || '') + '</span></div>' +
+              '<h3 class="vf-side-head">' + (b.headline || '') + '</h3>' +
+              '<p class="vf-side-stand">' + esc(b.standfirst || '') + '</p>' +
+            '</div>'
+          ).join('');
+        }
+      }
+
+      const vlTable = page.querySelector('.vl-table');
+      if (vlTable) {
+        vlTable.innerHTML = items.map(b =>
+          '<div class="vl-row" data-brief-id="' + esc(b.id) + '">' +
+            '<div class="vl-time">' + esc(timeOf(b)) + '<span class="date">' + esc(dateOf(b)) + '</span></div>' +
+            '<div class="vl-subvert">' + esc(b.topic || '') + '</div>' +
+            '<div class="vl-head">' + (b.headline || '') + '</div>' +
+            '<div class="vl-srcs">' + sourcesInline(b) + '</div>' +
+            '<div class="vl-status">' + statusPill(b.status_tag) + '</div>' +
+          '</div>'
+        ).join('');
+      }
+    });
+
+    // ---- ROUTING: rebind clicks (replaced innerHTML loses prior listeners) ----
+    function populateArticle(b) {
+      const page = document.getElementById('page-article');
+      if (!page) return;
+      const headline = page.querySelector('.article-headline');
+      const stand = page.querySelector('.article-stand');
+      const body = page.querySelector('.article-body');
+      const tier = page.querySelector('.article-meta-top .tier-pill');
+      const vert = page.querySelector('.article-meta-top .vert');
+      if (headline) headline.innerHTML = b.headline || '';
+      if (stand) stand.textContent = b.standfirst || '';
+      if (body && b.body_html) body.innerHTML = b.body_html;
+      if (tier) tier.textContent = b.tier || 'II';
+      if (vert) vert.textContent = (b.vertical || '') + (b.topic ? ' · ' + b.topic : '');
+    }
+
+    window.openBrief = function(id) {
+      const b = briefById.get(id);
+      if (b) populateArticle(b);
+      if (typeof showPage === 'function') showPage('article');
+    };
+
+    document.querySelectorAll('[data-brief-id]').forEach(el => {
+      el.style.cursor = 'pointer';
+      el.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        window.openBrief(el.dataset.briefId);
+      });
+    });
+  })();
 </script>
 
 </body>
