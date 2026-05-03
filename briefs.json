@@ -1,14 +1,63 @@
 {
-  "generated_at": "2026-05-03T13:21:05+00:00",
+  "generated_at": "2026-05-03T13:26:01+00:00",
   "version": 1,
   "counts": {
-    "total": 6,
+    "total": 12,
     "by_vertical": {
-      "Business": 2,
-      "Affairs": 4
+      "Affairs": 8,
+      "Business": 3
     }
   },
   "featured": [
+    {
+      "id": "b-4621ff329baf89d0",
+      "slug": "trump-evacuated-from-correspondents-dinner-after-shots-heard-at-venue-9baf89d0",
+      "headline": "Trump evacuated from correspondents' dinner after <em>shots heard</em> at venue",
+      "standfirst": "President Donald Trump was removed from the White House Correspondents' Association annual dinner on 25 April following gunfire outside the ballroom. Secret Service agents apprehended a suspect before he reached the event space. Trump was attending the dinner for the first time as president.",
+      "body_html": "<p>President Donald Trump was evacuated from the White House Correspondents' Association annual dinner on the evening of 25 April after shots were heard at the venue shortly after 8:30pm Washington time. Trump was seated on the dais with First Lady Melania Trump and Press Secretary Karoline Leavitt when loud bangs disrupted the event, prompting Secret Service agents to surround and remove him from the ballroom.</p><p>Secret Service agents apprehended a man before he reached the ballroom, according to ABC. The suspect's identity and motive have not been disclosed. No injuries have been reported among attendees or security personnel.</p><p>The incident marks Trump's first attendance at the correspondents' dinner as president. Previous presidents have traditionally attended the annual gathering of White House press corps and administration officials, though Trump boycotted the event during his first term. The dinner had been proceeding without incident before the disruption.</p><p>The evacuation follows established Secret Service protocols for potential threats to the president at public events. The agency has not released details on whether the suspect was armed or what charges may be filed. The dinner was not resumed following the evacuation.</p>",
+      "vertical": "Affairs",
+      "topic": "Presidential security incident",
+      "tier": "I",
+      "status_tag": "DEVELOPING",
+      "sources": [
+        {
+          "publisher": "Yonhap",
+          "domain": "en.yna.co.kr",
+          "url": "https://en.yna.co.kr/view/AEN20260426000400315",
+          "tier": "A",
+          "is_origin": true
+        },
+        {
+          "publisher": "straitstimes.com",
+          "domain": "straitstimes.com",
+          "url": "https://www.straitstimes.com/world/united-states/loud-bangs-and-a-trump-evacuation-chaos-at-white-house-correspondents-dinner",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "hindustantimes.com",
+          "domain": "hindustantimes.com",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-evacuated-after-loud-bangs-heard-at-white-house-correspondents-dinner-101777164645183.html",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "abc.net.au",
+          "domain": "abc.net.au",
+          "url": "https://www.abc.net.au/news/2026-04-26/donald-trump-evacuated-during-shooting-in-washington-explained/106608156",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "Yonhap",
+      "origin_url": "https://en.yna.co.kr/view/AEN20260426000400315",
+      "score": 77,
+      "written_at": "2026-05-03T13:25:12+00:00",
+      "detected_at": "2026-04-26T04:26:58+00:00",
+      "verified_at": "2026-05-03T13:24:06+00:00",
+      "time_display": "23:25 AEST",
+      "sources_inline": "en.yna.co.kr · straitstimes.com · hindustantimes.com · abc.net.au"
+    },
     {
       "id": "b-eae9133218d006fe",
       "slug": "russian-strikes-kill-seven-across-ukraine-four-in-dnipro-residential-b-18d006fe",
@@ -113,130 +162,9 @@
       "verified_at": "2026-05-03T08:21:51+00:00",
       "time_display": "19:38 AEST",
       "sources_inline": "afr.com · apnews.com"
-    },
-    {
-      "id": "b-8e2f8bffb222b407",
-      "slug": "kmt-chair-meets-xi-in-beijing-frames-cross-strait-choice-as-war-or-pea-b222b407",
-      "headline": "KMT chair meets Xi in Beijing, frames cross-strait choice as <em>war or peace</em>",
-      "standfirst": "Cheng Li-wun held the first KMT–CPC leadership meeting in nine years on Friday, calling for stable relations while neither endorsing nor rejecting reunification. Xi reiterated the 1992 Consensus as opposing Taiwanese independence. The meeting occurs amid sustained PLA activity near Taiwan.",
-      "body_html": "<p>Cheng Li-wun, chair of Taiwan's opposition Kuomintang, met Chinese Communist Party General Secretary Xi Jinping in Beijing on Friday in the first such leadership encounter since 2016. Speaking to media afterward, Cheng characterised the cross-strait situation as a binary choice between war and peace, stating the visit aimed to demonstrate that the desire for stability is not Taiwan's alone.</p><p>Xi's opening remarks, delivered before media were asked to leave, framed the 1992 Consensus — a disputed understanding from informal talks three decades ago — as \"One China, oppose Taiwanese independence,\" according to The Diplomat. The KMT later released Cheng's full comments. At her press conference, Cheng declined to explicitly endorse or reject Beijing's reunification objective, instead emphasising the need to \"consolidate a stable relationship,\" according to NBC News.</p><p>The meeting takes place against a backdrop of intensified military pressure. People's Liberation Army air and naval operations near Taiwan have increased in frequency and scale since 2022, with near-daily incursions into the island's air defence identification zone. The KMT, which governed Taiwan until 2016 and advocates engagement with Beijing over the ruling Democratic Progressive Party's more cautious approach, holds a legislative majority but lost the presidency in January 2024.</p><p>Cheng's visit signals the KMT's effort to position itself as a conduit for dialogue at a moment when official cross-strait communication channels remain frozen. Whether Beijing reciprocates with substantive concessions — on trade restrictions imposed since 2021 or military posture — will determine if the meeting yields policy outcomes beyond symbolic value. The next test will be whether follow-on working-level contacts materialise in coming weeks.</p>",
-      "vertical": "Affairs",
-      "topic": "Cross-strait KMT–CPC dialogue",
-      "tier": "II",
-      "status_tag": "CONFIRMED",
-      "sources": [
-        {
-          "publisher": "SCMP",
-          "domain": "scmp.com",
-          "url": "https://www.scmp.com/news/china/politics/article/3349640/takeaways-cheng-li-wuns-press-conference-about-meeting-xi-jinping?utm_source=rss_feed",
-          "tier": "B",
-          "is_origin": true
-        },
-        {
-          "publisher": "abc.net.au",
-          "domain": "abc.net.au",
-          "url": "https://www.abc.net.au/news/2026-04-10/cheng-li-wun-meets-xi-jinping-in-china-for-first-time/106542048",
-          "tier": "B",
-          "is_origin": false
-        },
-        {
-          "publisher": "nbcnews.com",
-          "domain": "nbcnews.com",
-          "url": "https://www.nbcnews.com/world/taiwan/chinas-xi-talks-peace-taiwans-opposition-leader-even-beijing-raises-mi-rcna273620",
-          "tier": "B",
-          "is_origin": false
-        },
-        {
-          "publisher": "thediplomat.com",
-          "domain": "thediplomat.com",
-          "url": "https://thediplomat.com/2026/04/the-domestic-politics-of-cheng-li-wuns-china-trip/",
-          "tier": "C",
-          "is_origin": false
-        }
-      ],
-      "origin_publisher": "SCMP",
-      "origin_url": "https://www.scmp.com/news/china/politics/article/3349640/takeaways-cheng-li-wuns-press-conference-about-meeting-xi-jinping?utm_source=rss_feed",
-      "score": 78,
-      "written_at": "2026-05-03T09:38:51+00:00",
-      "detected_at": "2026-04-26T04:42:12+00:00",
-      "verified_at": "2026-05-03T08:22:00+00:00",
-      "time_display": "19:38 AEST",
-      "sources_inline": "scmp.com · abc.net.au · nbcnews.com · thediplomat.com"
     }
   ],
   "by_vertical": {
-    "Business": [
-      {
-        "id": "b-1b17262c5e61812c",
-        "slug": "canadian-ai-firm-cohere-acquires-germany-s-aleph-alpha-to-challenge-us-5e61812c",
-        "headline": "Canadian AI firm Cohere acquires Germany's Aleph Alpha to challenge <em>US dominance</em>",
-        "standfirst": "Toronto-based Cohere is acquiring German enterprise AI developer Aleph Alpha. The deal positions the combined entity as a non-US alternative for customers concerned about American concentration in foundation models.",
-        "body_html": "<p>Cohere, a Canadian artificial intelligence start-up, is acquiring Aleph Alpha, a German enterprise AI developer, in a transaction designed to offer customers an alternative to American foundation model providers. The merger consolidates two smaller players in the enterprise AI market, both of which have positioned themselves as sovereignty-conscious options for governments and corporations wary of reliance on US-based platforms.</p><p>Cohere, based in Toronto, develops large language models for enterprise applications. Aleph Alpha, headquartered in Heidelberg, has focused on European clients seeking AI infrastructure that complies with regional data residency and regulatory requirements. Neither company has disclosed the financial terms of the acquisition.</p><p>The combination reflects growing demand for AI solutions outside the Silicon Valley ecosystem, particularly among European public-sector and corporate buyers. Regulatory divergence between the EU and US on data governance and algorithmic transparency has created commercial space for non-American providers. Cohere and Aleph Alpha have both marketed their models as alternatives to offerings from OpenAI, Anthropic, and Google, emphasising deployment flexibility and jurisdictional control.</p><p>The merged entity will compete in a market dominated by US firms that control the majority of foundation model development and deployment. Whether the combined company can achieve the scale required to sustain independent R&D investment remains an open question, given the capital intensity of frontier model training.</p>",
-        "vertical": "Business",
-        "topic": "Enterprise AI consolidation",
-        "tier": "II",
-        "status_tag": "CONFIRMED",
-        "sources": [
-          {
-            "publisher": "NYT Business",
-            "domain": "nytimes.com",
-            "url": "https://www.nytimes.com/2026/04/24/business/cohere-aleph-alpha-ai-merger.html",
-            "tier": "B",
-            "is_origin": true
-          },
-          {
-            "publisher": "wsj.com",
-            "domain": "wsj.com",
-            "url": "https://www.wsj.com/tech/ai/ai-startups-from-canada-germany-join-forces-in-challenge-to-silicon-valley-aa5ce68a",
-            "tier": "B",
-            "is_origin": false
-          }
-        ],
-        "origin_publisher": "NYT Business",
-        "origin_url": "https://www.nytimes.com/2026/04/24/business/cohere-aleph-alpha-ai-merger.html",
-        "score": 79,
-        "written_at": "2026-05-03T09:38:26+00:00",
-        "detected_at": "2026-04-26T04:33:33+00:00",
-        "verified_at": "2026-05-03T08:21:47+00:00",
-        "time_display": "19:38 AEST",
-        "sources_inline": "nytimes.com · wsj.com"
-      },
-      {
-        "id": "b-4fc96b240badc56a",
-        "slug": "chinese-automakers-pivot-to-autonomous-driving-as-domestic-ev-sales-pl-0badc56a",
-        "headline": "Chinese automakers pivot to <em>autonomous driving</em> as domestic EV sales plateau",
-        "standfirst": "BYD, Xiaomi and Xpeng showcased AI-driven self-driving systems at Beijing's auto show, the world's largest. The shift comes as manufacturers seek differentiation in a saturated home market and pursue export growth through technology leadership.",
-        "body_html": "<p>Chinese electric vehicle manufacturers unveiled autonomous driving platforms at the Beijing International Automotive Exhibition, which opened Friday with over 1,000 vehicles on display. BYD, Xiaomi and Xpeng positioned AI-integrated self-driving capabilities as their primary competitive axis, according to Channel News Asia.</p><p>The technology push follows slowing growth in China's domestic EV market, where local brands already dominate sales. Manufacturers are now investing in software differentiation — autonomous systems, battery charging infrastructure, and AI integration — to sustain margins and justify premium positioning.</p><p>The autonomous pivot also supports export ambitions. Chinese EV makers have expanded into European and Southeast Asian markets over the past 18 months, leveraging cost advantages in battery production. Advanced driver-assistance systems provide a second competitive vector beyond price, particularly in markets where Tesla and legacy European manufacturers retain brand strength.</p><p>The Beijing show's scale — hundreds of exhibitors, hundreds of thousands of attendees — reflects China's position as the world's largest automotive market by unit sales. Domestic manufacturers now control the majority of that market in the EV segment, a reversal from the internal combustion era when foreign joint ventures dominated.</p><p>The commercial viability of full autonomy remains unproven at scale. Regulatory frameworks in China permit broader testing than in the US or EU, giving domestic manufacturers a deployment advantage. Whether that translates to export success depends on certification reciprocity and liability standards in target markets, neither of which is resolved.</p>",
-        "vertical": "Business",
-        "topic": "China autonomous vehicle strategy",
-        "tier": "II",
-        "status_tag": "CONFIRMED",
-        "sources": [
-          {
-            "publisher": "Guardian World",
-            "domain": "theguardian.com",
-            "url": "https://www.theguardian.com/technology/2026/apr/24/china-chases-driverless-dream-beijing-car-show-ai",
-            "tier": "B",
-            "is_origin": true
-          },
-          {
-            "publisher": "channelnewsasia.com",
-            "domain": "channelnewsasia.com",
-            "url": "https://www.channelnewsasia.com/east-asia/auto-china-exhibition-electric-vehicles-byd-xiaomi-xpeng-6078056",
-            "tier": "B",
-            "is_origin": false
-          }
-        ],
-        "origin_publisher": "Guardian World",
-        "origin_url": "https://www.theguardian.com/technology/2026/apr/24/china-chases-driverless-dream-beijing-car-show-ai",
-        "score": 78,
-        "written_at": "2026-05-03T09:39:19+00:00",
-        "detected_at": "2026-04-26T04:37:37+00:00",
-        "verified_at": "2026-05-03T08:22:19+00:00",
-        "time_display": "19:39 AEST",
-        "sources_inline": "theguardian.com · channelnewsasia.com"
-      }
-    ],
     "Affairs": [
       {
         "id": "b-eae9133218d006fe",
@@ -405,10 +333,551 @@
         "verified_at": "2026-05-03T08:22:13+00:00",
         "time_display": "19:39 AEST",
         "sources_inline": "scmp.com · dw.com · bbc.co.uk · apnews.com"
+      },
+      {
+        "id": "b-1b9f3e6ddddd5cc6",
+        "slug": "colombia-accepts-us-deportation-flights-averting-trump-tariff-threat-dddd5cc6",
+        "headline": "Colombia accepts US deportation flights, averting <em>Trump tariff threat</em>",
+        "standfirst": "The Colombian government agreed to receive deported migrants on US military aircraft without restriction, ending a Sunday standoff in which President Trump threatened punitive tariffs. ICE arrested more than 900 individuals domestically as the administration escalates immigration enforcement.",
+        "body_html": "<p>Colombia reversed its initial refusal to accept US military deportation flights late Sunday, agreeing to all conditions set by the Trump administration and forestalling threatened tariffs on Colombian exports. The White House confirmed the agreement includes unrestricted acceptance of Colombian nationals returned from the United States, with no limitations on volume or timing.</p><p>The confrontation began when Colombia declined to receive military aircraft carrying deported migrants, prompting President Trump to announce punitive tariff measures. The Colombian government's reversal came within hours, according to the White House statement. No details of the proposed tariff structure were disclosed before the agreement was reached.</p><p>The episode marks the first use of tariff threats to enforce deportation cooperation in Trump's second term. Immigration and Customs Enforcement conducted more than 900 arrests domestically on Sunday, according to the Wall Street Journal, signalling expanded enforcement operations beyond the Colombia dispute.</p><p>The agreement establishes a precedent for US leverage over countries reluctant to accept deportees. Colombia is a significant US trade partner in the Andean region, making tariff exposure a material consideration for Bogotá. The White House framed the outcome as full Colombian compliance, though no public statement from the Colombian government detailing its position has been reported.</p><p>The swift resolution suggests the administration will deploy economic coercion to secure immigration enforcement objectives. Other countries with large migrant populations in the US now face a demonstrated willingness to escalate trade disputes over deportation logistics.</p>",
+        "vertical": "Affairs",
+        "topic": "US-Colombia deportation standoff",
+        "tier": "II",
+        "status_tag": "CONFIRMED",
+        "sources": [
+          {
+            "publisher": "WSJ World",
+            "domain": "wsj.com",
+            "url": "https://www.wsj.com/articles/trump-says-colombia-will-face-25-tariffs-amid-fight-over-deportation-flights-e32dc497",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "bbc.com",
+            "domain": "bbc.com",
+            "url": "https://www.bbc.com/news/articles/c20p36e62gyo",
+            "tier": "B",
+            "is_origin": false
+          },
+          {
+            "publisher": "nbcnews.com",
+            "domain": "nbcnews.com",
+            "url": "https://www.nbcnews.com/politics/donald-trump/live-blog/trump-administration-miami-republican-conference-live-updates-rcna189223",
+            "tier": "B",
+            "is_origin": false
+          },
+          {
+            "publisher": "cbsnews.com",
+            "domain": "cbsnews.com",
+            "url": "https://www.cbsnews.com/news/colombia-deportation-flights-trump-retaliation/",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "WSJ World",
+        "origin_url": "https://www.wsj.com/articles/trump-says-colombia-will-face-25-tariffs-amid-fight-over-deportation-flights-e32dc497",
+        "score": 78,
+        "written_at": "2026-05-03T13:24:46+00:00",
+        "detected_at": "2026-04-26T04:28:48+00:00",
+        "verified_at": "2026-05-03T13:23:11+00:00",
+        "time_display": "23:24 AEST",
+        "sources_inline": "wsj.com · bbc.com · nbcnews.com · cbsnews.com"
+      },
+      {
+        "id": "b-4621ff329baf89d0",
+        "slug": "trump-evacuated-from-correspondents-dinner-after-shots-heard-at-venue-9baf89d0",
+        "headline": "Trump evacuated from correspondents' dinner after <em>shots heard</em> at venue",
+        "standfirst": "President Donald Trump was removed from the White House Correspondents' Association annual dinner on 25 April following gunfire outside the ballroom. Secret Service agents apprehended a suspect before he reached the event space. Trump was attending the dinner for the first time as president.",
+        "body_html": "<p>President Donald Trump was evacuated from the White House Correspondents' Association annual dinner on the evening of 25 April after shots were heard at the venue shortly after 8:30pm Washington time. Trump was seated on the dais with First Lady Melania Trump and Press Secretary Karoline Leavitt when loud bangs disrupted the event, prompting Secret Service agents to surround and remove him from the ballroom.</p><p>Secret Service agents apprehended a man before he reached the ballroom, according to ABC. The suspect's identity and motive have not been disclosed. No injuries have been reported among attendees or security personnel.</p><p>The incident marks Trump's first attendance at the correspondents' dinner as president. Previous presidents have traditionally attended the annual gathering of White House press corps and administration officials, though Trump boycotted the event during his first term. The dinner had been proceeding without incident before the disruption.</p><p>The evacuation follows established Secret Service protocols for potential threats to the president at public events. The agency has not released details on whether the suspect was armed or what charges may be filed. The dinner was not resumed following the evacuation.</p>",
+        "vertical": "Affairs",
+        "topic": "Presidential security incident",
+        "tier": "I",
+        "status_tag": "DEVELOPING",
+        "sources": [
+          {
+            "publisher": "Yonhap",
+            "domain": "en.yna.co.kr",
+            "url": "https://en.yna.co.kr/view/AEN20260426000400315",
+            "tier": "A",
+            "is_origin": true
+          },
+          {
+            "publisher": "straitstimes.com",
+            "domain": "straitstimes.com",
+            "url": "https://www.straitstimes.com/world/united-states/loud-bangs-and-a-trump-evacuation-chaos-at-white-house-correspondents-dinner",
+            "tier": "B",
+            "is_origin": false
+          },
+          {
+            "publisher": "hindustantimes.com",
+            "domain": "hindustantimes.com",
+            "url": "https://www.hindustantimes.com/world-news/us-news/trump-evacuated-after-loud-bangs-heard-at-white-house-correspondents-dinner-101777164645183.html",
+            "tier": "B",
+            "is_origin": false
+          },
+          {
+            "publisher": "abc.net.au",
+            "domain": "abc.net.au",
+            "url": "https://www.abc.net.au/news/2026-04-26/donald-trump-evacuated-during-shooting-in-washington-explained/106608156",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "Yonhap",
+        "origin_url": "https://en.yna.co.kr/view/AEN20260426000400315",
+        "score": 77,
+        "written_at": "2026-05-03T13:25:12+00:00",
+        "detected_at": "2026-04-26T04:26:58+00:00",
+        "verified_at": "2026-05-03T13:24:06+00:00",
+        "time_display": "23:25 AEST",
+        "sources_inline": "en.yna.co.kr · straitstimes.com · hindustantimes.com · abc.net.au"
+      },
+      {
+        "id": "b-2af47bbd937259ab",
+        "slug": "kmt-chair-cheng-meets-xi-in-beijing-floats-invitation-to-taiwan-if-par-937259ab",
+        "headline": "KMT chair Cheng meets Xi in Beijing, floats <em>invitation to Taiwan</em> if party wins 2028",
+        "standfirst": "Cheng Li-wun held the first KMT–CCP leadership meeting in nine years, emphasising cross-strait peace. She told reporters she would invite Xi Jinping to Taiwan if her party takes power in 2028. The meeting signals renewed KMT engagement with Beijing ahead of Taiwan's next electoral cycle.",
+        "body_html": "<p>Cheng Li-wun, chairwoman of Taiwan's Kuomintang, met Communist Party General Secretary Xi Jinping in Beijing on Friday morning, the first such encounter between the two parties' leaders since November 2016. Speaking to the press at 2.22pm local time, Cheng said she would invite Xi to visit Taiwan if the KMT wins the island's 2028 general election.</p><p>The meeting follows a nine-year gap in formal KMT–CCP dialogue. The last leadership exchange occurred when then-KMT chair Hung Hsiu-chu travelled to the mainland in 2016. Both Xi and Cheng emphasised peace across the Taiwan Strait during Friday's talks, according to the South China Morning Post.</p><p>The KMT remains Taiwan's largest opposition party but has been out of executive power since 2016. Cheng's invitation proposal positions the party as a conduit for cross-strait engagement, contrasting with the ruling Democratic Progressive Party's stance of maintaining distance from Beijing. Taiwan's next presidential and legislative elections are scheduled for 2028.</p><p>The meeting comes as Beijing has intensified military and diplomatic pressure on Taiwan over the past three years, including large-scale air and naval exercises around the island. The KMT has historically favoured closer economic ties with the mainland while stopping short of endorsing unification. Cheng's public invitation to Xi represents the most explicit gesture of rapprochement from a major Taiwanese political figure in recent years.</p><p>Whether Xi would accept such an invitation remains uncertain. No sitting Chinese leader has visited Taiwan since the 1949 civil war split. The proposal nonetheless frames the KMT's 2028 campaign around cross-strait détente, a message likely to resonate with business constituencies and voters concerned about economic stability.</p>",
+        "vertical": "Affairs",
+        "topic": "Taiwan KMT–Beijing engagement",
+        "tier": "II",
+        "status_tag": "CONFIRMED",
+        "sources": [
+          {
+            "publisher": "SCMP",
+            "domain": "scmp.com",
+            "url": "https://www.scmp.com/news/china/politics/article/3349617/taiwans-opposition-leader-cheng-li-wun-speaks-after-historic-meeting-xi-jinping?utm_source=rss_feed",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "theguardian.com",
+            "domain": "theguardian.com",
+            "url": "https://www.theguardian.com/world/2026/apr/10/xi-jinping-cheng-li-wu-china-taiwan-meeting-bejing",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "SCMP",
+        "origin_url": "https://www.scmp.com/news/china/politics/article/3349617/taiwans-opposition-leader-cheng-li-wun-speaks-after-historic-meeting-xi-jinping?utm_source=rss_feed",
+        "score": 76,
+        "written_at": "2026-05-03T13:25:22+00:00",
+        "detected_at": "2026-04-26T04:42:12+00:00",
+        "verified_at": "2026-05-03T13:24:22+00:00",
+        "time_display": "23:25 AEST",
+        "sources_inline": "scmp.com · theguardian.com"
+      },
+      {
+        "id": "b-c23e273c980bd88c",
+        "slug": "russian-strikes-kill-seven-across-ukraine-in-largest-multi-city-assaul-980bd88c",
+        "headline": "Russian strikes kill seven across Ukraine in <em>largest multi-city assault</em> in days",
+        "standfirst": "Overnight drone and missile attacks killed at least seven people and injured 34 across Dnipro, Kharkiv, and Odesa. Dnipro sustained the heaviest casualties with five dead, including victims found in residential rubble. The assault involved 480 drones and 29 missiles according to Ukrainian officials.",
+        "body_html": "<p>Russian forces launched coordinated drone and missile strikes across Ukraine overnight, killing at least seven people and injuring 34 in what Ukrainian authorities described as the largest multi-city assault in several days. Dnipro bore the heaviest toll with five fatalities, including four bodies recovered from a destroyed residential building where search operations continued Saturday morning.</p><p>The attacks targeted Dnipro, Kharkiv, and Odesa, with strikes lasting through the night according to Oleksandr Hanzha, head of the Dnipropetrovsk regional administration. Ukrainian officials reported the assault involved 480 drones and 29 missiles directed at civilian infrastructure. Kharkiv sustained casualties including children, though specific numbers for that city were not immediately confirmed.</p><p>The scale of the overnight operation marks an escalation in the tempo of Russian air campaigns, which had diminished in intensity over preceding days. The targeting pattern — simultaneous strikes on major population centres across eastern, southern, and central Ukraine — reflects Moscow's continued strategy of dispersing Ukrainian air defences across multiple axes.</p><p>The casualty count remained provisional as emergency services worked through debris in Dnipro. Ukrainian authorities have not yet released details on the types of missiles or drones employed, nor the extent of infrastructure damage beyond residential structures.</p>",
+        "vertical": "Affairs",
+        "topic": "Ukraine air campaign",
+        "tier": "II",
+        "status_tag": "CONFIRMED",
+        "sources": [
+          {
+            "publisher": "Guardian World",
+            "domain": "theguardian.com",
+            "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "politico.eu",
+            "domain": "politico.eu",
+            "url": "https://www.politico.eu/article/russia-strike-ukraine-apartment-7-dead-kharkiv/",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "Guardian World",
+        "origin_url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv",
+        "score": 76,
+        "written_at": "2026-05-03T13:25:35+00:00",
+        "detected_at": "2026-04-26T04:38:28+00:00",
+        "verified_at": "2026-05-03T13:24:27+00:00",
+        "time_display": "23:25 AEST",
+        "sources_inline": "theguardian.com · politico.eu"
+      }
+    ],
+    "Business": [
+      {
+        "id": "b-1b17262c5e61812c",
+        "slug": "canadian-ai-firm-cohere-acquires-germany-s-aleph-alpha-to-challenge-us-5e61812c",
+        "headline": "Canadian AI firm Cohere acquires Germany's Aleph Alpha to challenge <em>US dominance</em>",
+        "standfirst": "Toronto-based Cohere is acquiring German enterprise AI developer Aleph Alpha. The deal positions the combined entity as a non-US alternative for customers concerned about American concentration in foundation models.",
+        "body_html": "<p>Cohere, a Canadian artificial intelligence start-up, is acquiring Aleph Alpha, a German enterprise AI developer, in a transaction designed to offer customers an alternative to American foundation model providers. The merger consolidates two smaller players in the enterprise AI market, both of which have positioned themselves as sovereignty-conscious options for governments and corporations wary of reliance on US-based platforms.</p><p>Cohere, based in Toronto, develops large language models for enterprise applications. Aleph Alpha, headquartered in Heidelberg, has focused on European clients seeking AI infrastructure that complies with regional data residency and regulatory requirements. Neither company has disclosed the financial terms of the acquisition.</p><p>The combination reflects growing demand for AI solutions outside the Silicon Valley ecosystem, particularly among European public-sector and corporate buyers. Regulatory divergence between the EU and US on data governance and algorithmic transparency has created commercial space for non-American providers. Cohere and Aleph Alpha have both marketed their models as alternatives to offerings from OpenAI, Anthropic, and Google, emphasising deployment flexibility and jurisdictional control.</p><p>The merged entity will compete in a market dominated by US firms that control the majority of foundation model development and deployment. Whether the combined company can achieve the scale required to sustain independent R&D investment remains an open question, given the capital intensity of frontier model training.</p>",
+        "vertical": "Business",
+        "topic": "Enterprise AI consolidation",
+        "tier": "II",
+        "status_tag": "CONFIRMED",
+        "sources": [
+          {
+            "publisher": "NYT Business",
+            "domain": "nytimes.com",
+            "url": "https://www.nytimes.com/2026/04/24/business/cohere-aleph-alpha-ai-merger.html",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "wsj.com",
+            "domain": "wsj.com",
+            "url": "https://www.wsj.com/tech/ai/ai-startups-from-canada-germany-join-forces-in-challenge-to-silicon-valley-aa5ce68a",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "NYT Business",
+        "origin_url": "https://www.nytimes.com/2026/04/24/business/cohere-aleph-alpha-ai-merger.html",
+        "score": 79,
+        "written_at": "2026-05-03T09:38:26+00:00",
+        "detected_at": "2026-04-26T04:33:33+00:00",
+        "verified_at": "2026-05-03T08:21:47+00:00",
+        "time_display": "19:38 AEST",
+        "sources_inline": "nytimes.com · wsj.com"
+      },
+      {
+        "id": "b-4fc96b240badc56a",
+        "slug": "chinese-automakers-pivot-to-autonomous-driving-as-domestic-ev-sales-pl-0badc56a",
+        "headline": "Chinese automakers pivot to <em>autonomous driving</em> as domestic EV sales plateau",
+        "standfirst": "BYD, Xiaomi and Xpeng showcased AI-driven self-driving systems at Beijing's auto show, the world's largest. The shift comes as manufacturers seek differentiation in a saturated home market and pursue export growth through technology leadership.",
+        "body_html": "<p>Chinese electric vehicle manufacturers unveiled autonomous driving platforms at the Beijing International Automotive Exhibition, which opened Friday with over 1,000 vehicles on display. BYD, Xiaomi and Xpeng positioned AI-integrated self-driving capabilities as their primary competitive axis, according to Channel News Asia.</p><p>The technology push follows slowing growth in China's domestic EV market, where local brands already dominate sales. Manufacturers are now investing in software differentiation — autonomous systems, battery charging infrastructure, and AI integration — to sustain margins and justify premium positioning.</p><p>The autonomous pivot also supports export ambitions. Chinese EV makers have expanded into European and Southeast Asian markets over the past 18 months, leveraging cost advantages in battery production. Advanced driver-assistance systems provide a second competitive vector beyond price, particularly in markets where Tesla and legacy European manufacturers retain brand strength.</p><p>The Beijing show's scale — hundreds of exhibitors, hundreds of thousands of attendees — reflects China's position as the world's largest automotive market by unit sales. Domestic manufacturers now control the majority of that market in the EV segment, a reversal from the internal combustion era when foreign joint ventures dominated.</p><p>The commercial viability of full autonomy remains unproven at scale. Regulatory frameworks in China permit broader testing than in the US or EU, giving domestic manufacturers a deployment advantage. Whether that translates to export success depends on certification reciprocity and liability standards in target markets, neither of which is resolved.</p>",
+        "vertical": "Business",
+        "topic": "China autonomous vehicle strategy",
+        "tier": "II",
+        "status_tag": "CONFIRMED",
+        "sources": [
+          {
+            "publisher": "Guardian World",
+            "domain": "theguardian.com",
+            "url": "https://www.theguardian.com/technology/2026/apr/24/china-chases-driverless-dream-beijing-car-show-ai",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "channelnewsasia.com",
+            "domain": "channelnewsasia.com",
+            "url": "https://www.channelnewsasia.com/east-asia/auto-china-exhibition-electric-vehicles-byd-xiaomi-xpeng-6078056",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "Guardian World",
+        "origin_url": "https://www.theguardian.com/technology/2026/apr/24/china-chases-driverless-dream-beijing-car-show-ai",
+        "score": 78,
+        "written_at": "2026-05-03T09:39:19+00:00",
+        "detected_at": "2026-04-26T04:37:37+00:00",
+        "verified_at": "2026-05-03T08:22:19+00:00",
+        "time_display": "19:39 AEST",
+        "sources_inline": "theguardian.com · channelnewsasia.com"
+      },
+      {
+        "id": "b-e76218bd0fbac60e",
+        "slug": "vanke-reports-871-million-q1-loss-as-china-property-crisis-reaches-sta-0fbac60e",
+        "headline": "Vanke reports $871 million Q1 loss as China property crisis <em>reaches state-linked developers</em>",
+        "standfirst": "China Vanke posted a net loss of 5.95 billion yuan in the first quarter, extending losses into a fifth year of sector decline. The developer's troubles signal the crisis has spread beyond overleveraged private firms to companies with implicit state backing.",
+        "body_html": "<p>China Vanke Co. reported a net loss of 5.95 billion yuan ($871 million) for the three months ended March, according to a Hong Kong exchange filing Wednesday. Revenue fell as home deliveries declined, extending a loss trajectory that saw the Shenzhen-based developer post a record 88.56 billion yuan annual loss in 2024.</p><p>The first-quarter loss narrowed 5 percent year-on-year, but the continued hemorrhaging at a developer long considered financially stable marks a qualitative shift in China's property crisis. Vanke has historically benefited from ties to state-owned enterprises and maintained conservative leverage ratios compared to collapsed peers such as Evergrande and Country Garden.</p><p>Major Chinese developers reported operating losses across 2024 and into 2025, with some headline profits driven by non-cash gains from debt restructuring rather than core operations, according to South China Morning Post analysis of filings. The pattern indicates the downturn has moved beyond liquidity-strained private developers to affect the sector systemically.</p><p>Vanke's deterioration raises immediate questions about state intervention. Beijing has deployed selective support measures including eased mortgage rules and local government land-purchase programmes, but has stopped short of a comprehensive bailout. The company's losses test whether authorities will allow a developer with state linkages to fail or restructure, setting a precedent for how Beijing manages the sector's contraction.</p><p>The property crisis has persisted for five years, eroding household wealth tied to real estate and dampening consumer confidence. Vanke's continued losses suggest stabilisation remains distant despite policy support, with implications for credit markets and local government finances dependent on land sales.</p>",
+        "vertical": "Business",
+        "topic": "China property sector losses",
+        "tier": "II",
+        "status_tag": "CONFIRMED",
+        "sources": [
+          {
+            "publisher": "WSJ World",
+            "domain": "wsj.com",
+            "url": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "bloomberg.com",
+            "domain": "bloomberg.com",
+            "url": "https://www.bloomberg.com/news/articles/2026-04-29/developer-china-vanke-posts-871-million-loss-in-first-quarter",
+            "tier": "A",
+            "is_origin": false
+          },
+          {
+            "publisher": "marketwatch.com",
+            "domain": "marketwatch.com",
+            "url": "https://www.marketwatch.com/story/china-vanke-continues-to-suffer-heavy-losses-amid-prolonged-real-estate-downturn-4b9da8ac",
+            "tier": "C",
+            "is_origin": false
+          },
+          {
+            "publisher": "scmp.com",
+            "domain": "scmp.com",
+            "url": "https://www.scmp.com/business/article/3348596/vanke-posts-record-8856-billion-yuan-loss-china-property-market-woes-linger",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "WSJ World",
+        "origin_url": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
+        "score": 78,
+        "written_at": "2026-05-03T13:24:58+00:00",
+        "detected_at": "2026-04-26T04:28:27+00:00",
+        "verified_at": "2026-05-03T13:23:21+00:00",
+        "time_display": "23:24 AEST",
+        "sources_inline": "wsj.com · bloomberg.com · marketwatch.com · scmp.com"
       }
     ]
   },
   "all": [
+    {
+      "id": "b-409aace8da0a714d",
+      "slug": "raf-typhoons-scramble-from-romania-as-russian-drones-approach-nato-air-da0a714d",
+      "headline": "RAF Typhoons scramble from Romania as Russian drones <em>approach NATO airspace</em>",
+      "standfirst": "Two British fighter jets deployed from a Romanian base intercepted Russian unmanned aircraft near the alliance's eastern boundary but remained outside Ukrainian airspace. British defence sources denied reports the aircraft engaged targets over Ukraine, which would have marked direct UK-Russia combat.",
+      "body_html": "<p>Two RAF Typhoons scrambled from Romania on 25 April to intercept Russian drones operating close to NATO airspace, according to British defence sources. The fighters did not cross into Ukrainian territory and did not open fire, contradicting earlier reports that suggested the RAF had shot down Russian aircraft over Ukraine.</p><p>The deployment represents the latest instance of heightened air-policing activity along NATO's eastern flank. British Typhoons conducted similar intercepts over the Baltic Sea on 15 April against a Russian Ilyushin Il-20M intelligence aircraft, and again on 17 April against an unidentified aircraft departing Kaliningrad airspace, according to the BBC.</p><p>British defence officials emphasised that the Romanian-based fighters remained within NATO airspace throughout the engagement. The clarification addresses concern that direct combat between UK forces and Russian assets would constitute a significant escalation in the Ukraine conflict, potentially triggering Article 5 considerations or retaliatory strikes.</p><p>The incident underscores the operational tempo of NATO air patrols in Romania, which borders Ukraine along a 650-kilometre frontier. Russian drone incursions near alliance airspace have increased as Moscow intensifies long-range strike campaigns against Ukrainian infrastructure, raising the probability of inadvertent boundary violations or misidentification events.</p><p>NATO has not publicly commented on the specific engagement. The alliance maintains enhanced air-policing missions across its eastern members, with rotating detachments from member air forces supplementing national quick-reaction alert capabilities.</p>",
+      "vertical": "Affairs",
+      "topic": "NATO air policing",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "Guardian World",
+          "domain": "theguardian.com",
+          "url": "https://www.theguardian.com/uk-news/2026/apr/25/raf-typhoons-scrambled-russia-drone-nato-romania-ukraine",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "bbc.com",
+          "domain": "bbc.com",
+          "url": "https://www.bbc.com/news/articles/cx2y515gzq7o",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "Guardian World",
+      "origin_url": "https://www.theguardian.com/uk-news/2026/apr/25/raf-typhoons-scrambled-russia-drone-nato-romania-ukraine",
+      "score": 76,
+      "written_at": "2026-05-03T13:25:47+00:00",
+      "detected_at": "2026-04-26T04:38:28+00:00",
+      "verified_at": "2026-05-03T13:24:30+00:00",
+      "time_display": "23:25 AEST",
+      "sources_inline": "theguardian.com · bbc.com"
+    },
+    {
+      "id": "b-c23e273c980bd88c",
+      "slug": "russian-strikes-kill-seven-across-ukraine-in-largest-multi-city-assaul-980bd88c",
+      "headline": "Russian strikes kill seven across Ukraine in <em>largest multi-city assault</em> in days",
+      "standfirst": "Overnight drone and missile attacks killed at least seven people and injured 34 across Dnipro, Kharkiv, and Odesa. Dnipro sustained the heaviest casualties with five dead, including victims found in residential rubble. The assault involved 480 drones and 29 missiles according to Ukrainian officials.",
+      "body_html": "<p>Russian forces launched coordinated drone and missile strikes across Ukraine overnight, killing at least seven people and injuring 34 in what Ukrainian authorities described as the largest multi-city assault in several days. Dnipro bore the heaviest toll with five fatalities, including four bodies recovered from a destroyed residential building where search operations continued Saturday morning.</p><p>The attacks targeted Dnipro, Kharkiv, and Odesa, with strikes lasting through the night according to Oleksandr Hanzha, head of the Dnipropetrovsk regional administration. Ukrainian officials reported the assault involved 480 drones and 29 missiles directed at civilian infrastructure. Kharkiv sustained casualties including children, though specific numbers for that city were not immediately confirmed.</p><p>The scale of the overnight operation marks an escalation in the tempo of Russian air campaigns, which had diminished in intensity over preceding days. The targeting pattern — simultaneous strikes on major population centres across eastern, southern, and central Ukraine — reflects Moscow's continued strategy of dispersing Ukrainian air defences across multiple axes.</p><p>The casualty count remained provisional as emergency services worked through debris in Dnipro. Ukrainian authorities have not yet released details on the types of missiles or drones employed, nor the extent of infrastructure damage beyond residential structures.</p>",
+      "vertical": "Affairs",
+      "topic": "Ukraine air campaign",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "Guardian World",
+          "domain": "theguardian.com",
+          "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "politico.eu",
+          "domain": "politico.eu",
+          "url": "https://www.politico.eu/article/russia-strike-ukraine-apartment-7-dead-kharkiv/",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "Guardian World",
+      "origin_url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv",
+      "score": 76,
+      "written_at": "2026-05-03T13:25:35+00:00",
+      "detected_at": "2026-04-26T04:38:28+00:00",
+      "verified_at": "2026-05-03T13:24:27+00:00",
+      "time_display": "23:25 AEST",
+      "sources_inline": "theguardian.com · politico.eu"
+    },
+    {
+      "id": "b-2af47bbd937259ab",
+      "slug": "kmt-chair-cheng-meets-xi-in-beijing-floats-invitation-to-taiwan-if-par-937259ab",
+      "headline": "KMT chair Cheng meets Xi in Beijing, floats <em>invitation to Taiwan</em> if party wins 2028",
+      "standfirst": "Cheng Li-wun held the first KMT–CCP leadership meeting in nine years, emphasising cross-strait peace. She told reporters she would invite Xi Jinping to Taiwan if her party takes power in 2028. The meeting signals renewed KMT engagement with Beijing ahead of Taiwan's next electoral cycle.",
+      "body_html": "<p>Cheng Li-wun, chairwoman of Taiwan's Kuomintang, met Communist Party General Secretary Xi Jinping in Beijing on Friday morning, the first such encounter between the two parties' leaders since November 2016. Speaking to the press at 2.22pm local time, Cheng said she would invite Xi to visit Taiwan if the KMT wins the island's 2028 general election.</p><p>The meeting follows a nine-year gap in formal KMT–CCP dialogue. The last leadership exchange occurred when then-KMT chair Hung Hsiu-chu travelled to the mainland in 2016. Both Xi and Cheng emphasised peace across the Taiwan Strait during Friday's talks, according to the South China Morning Post.</p><p>The KMT remains Taiwan's largest opposition party but has been out of executive power since 2016. Cheng's invitation proposal positions the party as a conduit for cross-strait engagement, contrasting with the ruling Democratic Progressive Party's stance of maintaining distance from Beijing. Taiwan's next presidential and legislative elections are scheduled for 2028.</p><p>The meeting comes as Beijing has intensified military and diplomatic pressure on Taiwan over the past three years, including large-scale air and naval exercises around the island. The KMT has historically favoured closer economic ties with the mainland while stopping short of endorsing unification. Cheng's public invitation to Xi represents the most explicit gesture of rapprochement from a major Taiwanese political figure in recent years.</p><p>Whether Xi would accept such an invitation remains uncertain. No sitting Chinese leader has visited Taiwan since the 1949 civil war split. The proposal nonetheless frames the KMT's 2028 campaign around cross-strait détente, a message likely to resonate with business constituencies and voters concerned about economic stability.</p>",
+      "vertical": "Affairs",
+      "topic": "Taiwan KMT–Beijing engagement",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "SCMP",
+          "domain": "scmp.com",
+          "url": "https://www.scmp.com/news/china/politics/article/3349617/taiwans-opposition-leader-cheng-li-wun-speaks-after-historic-meeting-xi-jinping?utm_source=rss_feed",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "theguardian.com",
+          "domain": "theguardian.com",
+          "url": "https://www.theguardian.com/world/2026/apr/10/xi-jinping-cheng-li-wu-china-taiwan-meeting-bejing",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "SCMP",
+      "origin_url": "https://www.scmp.com/news/china/politics/article/3349617/taiwans-opposition-leader-cheng-li-wun-speaks-after-historic-meeting-xi-jinping?utm_source=rss_feed",
+      "score": 76,
+      "written_at": "2026-05-03T13:25:22+00:00",
+      "detected_at": "2026-04-26T04:42:12+00:00",
+      "verified_at": "2026-05-03T13:24:22+00:00",
+      "time_display": "23:25 AEST",
+      "sources_inline": "scmp.com · theguardian.com"
+    },
+    {
+      "id": "b-4621ff329baf89d0",
+      "slug": "trump-evacuated-from-correspondents-dinner-after-shots-heard-at-venue-9baf89d0",
+      "headline": "Trump evacuated from correspondents' dinner after <em>shots heard</em> at venue",
+      "standfirst": "President Donald Trump was removed from the White House Correspondents' Association annual dinner on 25 April following gunfire outside the ballroom. Secret Service agents apprehended a suspect before he reached the event space. Trump was attending the dinner for the first time as president.",
+      "body_html": "<p>President Donald Trump was evacuated from the White House Correspondents' Association annual dinner on the evening of 25 April after shots were heard at the venue shortly after 8:30pm Washington time. Trump was seated on the dais with First Lady Melania Trump and Press Secretary Karoline Leavitt when loud bangs disrupted the event, prompting Secret Service agents to surround and remove him from the ballroom.</p><p>Secret Service agents apprehended a man before he reached the ballroom, according to ABC. The suspect's identity and motive have not been disclosed. No injuries have been reported among attendees or security personnel.</p><p>The incident marks Trump's first attendance at the correspondents' dinner as president. Previous presidents have traditionally attended the annual gathering of White House press corps and administration officials, though Trump boycotted the event during his first term. The dinner had been proceeding without incident before the disruption.</p><p>The evacuation follows established Secret Service protocols for potential threats to the president at public events. The agency has not released details on whether the suspect was armed or what charges may be filed. The dinner was not resumed following the evacuation.</p>",
+      "vertical": "Affairs",
+      "topic": "Presidential security incident",
+      "tier": "I",
+      "status_tag": "DEVELOPING",
+      "sources": [
+        {
+          "publisher": "Yonhap",
+          "domain": "en.yna.co.kr",
+          "url": "https://en.yna.co.kr/view/AEN20260426000400315",
+          "tier": "A",
+          "is_origin": true
+        },
+        {
+          "publisher": "straitstimes.com",
+          "domain": "straitstimes.com",
+          "url": "https://www.straitstimes.com/world/united-states/loud-bangs-and-a-trump-evacuation-chaos-at-white-house-correspondents-dinner",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "hindustantimes.com",
+          "domain": "hindustantimes.com",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-evacuated-after-loud-bangs-heard-at-white-house-correspondents-dinner-101777164645183.html",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "abc.net.au",
+          "domain": "abc.net.au",
+          "url": "https://www.abc.net.au/news/2026-04-26/donald-trump-evacuated-during-shooting-in-washington-explained/106608156",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "Yonhap",
+      "origin_url": "https://en.yna.co.kr/view/AEN20260426000400315",
+      "score": 77,
+      "written_at": "2026-05-03T13:25:12+00:00",
+      "detected_at": "2026-04-26T04:26:58+00:00",
+      "verified_at": "2026-05-03T13:24:06+00:00",
+      "time_display": "23:25 AEST",
+      "sources_inline": "en.yna.co.kr · straitstimes.com · hindustantimes.com · abc.net.au"
+    },
+    {
+      "id": "b-e76218bd0fbac60e",
+      "slug": "vanke-reports-871-million-q1-loss-as-china-property-crisis-reaches-sta-0fbac60e",
+      "headline": "Vanke reports $871 million Q1 loss as China property crisis <em>reaches state-linked developers</em>",
+      "standfirst": "China Vanke posted a net loss of 5.95 billion yuan in the first quarter, extending losses into a fifth year of sector decline. The developer's troubles signal the crisis has spread beyond overleveraged private firms to companies with implicit state backing.",
+      "body_html": "<p>China Vanke Co. reported a net loss of 5.95 billion yuan ($871 million) for the three months ended March, according to a Hong Kong exchange filing Wednesday. Revenue fell as home deliveries declined, extending a loss trajectory that saw the Shenzhen-based developer post a record 88.56 billion yuan annual loss in 2024.</p><p>The first-quarter loss narrowed 5 percent year-on-year, but the continued hemorrhaging at a developer long considered financially stable marks a qualitative shift in China's property crisis. Vanke has historically benefited from ties to state-owned enterprises and maintained conservative leverage ratios compared to collapsed peers such as Evergrande and Country Garden.</p><p>Major Chinese developers reported operating losses across 2024 and into 2025, with some headline profits driven by non-cash gains from debt restructuring rather than core operations, according to South China Morning Post analysis of filings. The pattern indicates the downturn has moved beyond liquidity-strained private developers to affect the sector systemically.</p><p>Vanke's deterioration raises immediate questions about state intervention. Beijing has deployed selective support measures including eased mortgage rules and local government land-purchase programmes, but has stopped short of a comprehensive bailout. The company's losses test whether authorities will allow a developer with state linkages to fail or restructure, setting a precedent for how Beijing manages the sector's contraction.</p><p>The property crisis has persisted for five years, eroding household wealth tied to real estate and dampening consumer confidence. Vanke's continued losses suggest stabilisation remains distant despite policy support, with implications for credit markets and local government finances dependent on land sales.</p>",
+      "vertical": "Business",
+      "topic": "China property sector losses",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "WSJ World",
+          "domain": "wsj.com",
+          "url": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "bloomberg.com",
+          "domain": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-29/developer-china-vanke-posts-871-million-loss-in-first-quarter",
+          "tier": "A",
+          "is_origin": false
+        },
+        {
+          "publisher": "marketwatch.com",
+          "domain": "marketwatch.com",
+          "url": "https://www.marketwatch.com/story/china-vanke-continues-to-suffer-heavy-losses-amid-prolonged-real-estate-downturn-4b9da8ac",
+          "tier": "C",
+          "is_origin": false
+        },
+        {
+          "publisher": "scmp.com",
+          "domain": "scmp.com",
+          "url": "https://www.scmp.com/business/article/3348596/vanke-posts-record-8856-billion-yuan-loss-china-property-market-woes-linger",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "WSJ World",
+      "origin_url": "https://www.wsj.com/articles/even-chinas-property-stalwart-isnt-immune-from-the-crisis-19799863",
+      "score": 78,
+      "written_at": "2026-05-03T13:24:58+00:00",
+      "detected_at": "2026-04-26T04:28:27+00:00",
+      "verified_at": "2026-05-03T13:23:21+00:00",
+      "time_display": "23:24 AEST",
+      "sources_inline": "wsj.com · bloomberg.com · marketwatch.com · scmp.com"
+    },
+    {
+      "id": "b-1b9f3e6ddddd5cc6",
+      "slug": "colombia-accepts-us-deportation-flights-averting-trump-tariff-threat-dddd5cc6",
+      "headline": "Colombia accepts US deportation flights, averting <em>Trump tariff threat</em>",
+      "standfirst": "The Colombian government agreed to receive deported migrants on US military aircraft without restriction, ending a Sunday standoff in which President Trump threatened punitive tariffs. ICE arrested more than 900 individuals domestically as the administration escalates immigration enforcement.",
+      "body_html": "<p>Colombia reversed its initial refusal to accept US military deportation flights late Sunday, agreeing to all conditions set by the Trump administration and forestalling threatened tariffs on Colombian exports. The White House confirmed the agreement includes unrestricted acceptance of Colombian nationals returned from the United States, with no limitations on volume or timing.</p><p>The confrontation began when Colombia declined to receive military aircraft carrying deported migrants, prompting President Trump to announce punitive tariff measures. The Colombian government's reversal came within hours, according to the White House statement. No details of the proposed tariff structure were disclosed before the agreement was reached.</p><p>The episode marks the first use of tariff threats to enforce deportation cooperation in Trump's second term. Immigration and Customs Enforcement conducted more than 900 arrests domestically on Sunday, according to the Wall Street Journal, signalling expanded enforcement operations beyond the Colombia dispute.</p><p>The agreement establishes a precedent for US leverage over countries reluctant to accept deportees. Colombia is a significant US trade partner in the Andean region, making tariff exposure a material consideration for Bogotá. The White House framed the outcome as full Colombian compliance, though no public statement from the Colombian government detailing its position has been reported.</p><p>The swift resolution suggests the administration will deploy economic coercion to secure immigration enforcement objectives. Other countries with large migrant populations in the US now face a demonstrated willingness to escalate trade disputes over deportation logistics.</p>",
+      "vertical": "Affairs",
+      "topic": "US-Colombia deportation standoff",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "WSJ World",
+          "domain": "wsj.com",
+          "url": "https://www.wsj.com/articles/trump-says-colombia-will-face-25-tariffs-amid-fight-over-deportation-flights-e32dc497",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "bbc.com",
+          "domain": "bbc.com",
+          "url": "https://www.bbc.com/news/articles/c20p36e62gyo",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "nbcnews.com",
+          "domain": "nbcnews.com",
+          "url": "https://www.nbcnews.com/politics/donald-trump/live-blog/trump-administration-miami-republican-conference-live-updates-rcna189223",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "cbsnews.com",
+          "domain": "cbsnews.com",
+          "url": "https://www.cbsnews.com/news/colombia-deportation-flights-trump-retaliation/",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "WSJ World",
+      "origin_url": "https://www.wsj.com/articles/trump-says-colombia-will-face-25-tariffs-amid-fight-over-deportation-flights-e32dc497",
+      "score": 78,
+      "written_at": "2026-05-03T13:24:46+00:00",
+      "detected_at": "2026-04-26T04:28:48+00:00",
+      "verified_at": "2026-05-03T13:23:11+00:00",
+      "time_display": "23:24 AEST",
+      "sources_inline": "wsj.com · bbc.com · nbcnews.com · cbsnews.com"
+    },
     {
       "id": "b-4fc96b240badc56a",
       "slug": "chinese-automakers-pivot-to-autonomous-driving-as-domestic-ev-sales-pl-0badc56a",
