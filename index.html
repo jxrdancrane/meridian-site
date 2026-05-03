@@ -5071,7 +5071,7 @@
           </ul>
         </div>
 
-        <div class="aside-block">
+        <div class="aside-block" id="aside-brief-meta">
           <div class="aside-label">Brief metadata</div>
           <ul class="aside-meta-table">
             <li><span class="k">Brief ID</span><span class="v">MR-26-0418-001</span></li>
@@ -7209,6 +7209,10 @@
       const target = el.dataset.page;
       if (target) {
         e.preventDefault();
+        if (el.dataset.briefId && typeof window.openBrief === 'function') {
+          window.openBrief(el.dataset.briefId);
+          return;
+        }
         showPage(target);
       }
     });
@@ -8381,6 +8385,13 @@
     window.openBrief = function(id) {
       const b = briefById.get(id);
       if (b) populateArticle(b);
+      const page = document.getElementById('page-article');
+      if (page) {
+        const activity = page.querySelector('.aside-activity');
+        const meta = page.querySelector('#aside-brief-meta');
+        if (activity) activity.style.display = 'none';
+        if (meta) meta.style.display = 'none';
+      }
       if (typeof showPage === 'function') showPage('article');
     };
 
