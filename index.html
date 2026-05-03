@@ -8366,6 +8366,35 @@
       }
     });
 
+    // ---- HOME BY-VERTICAL: rewrite leading agg-items per column from byVert ----
+    const aggSection = document.querySelector('.three-col-aggregation');
+    if (aggSection) {
+      aggSection.querySelectorAll('.agg-col').forEach(col => {
+        const nameEl = col.querySelector('.agg-col-name');
+        if (!nameEl) return;
+        const name = nameEl.textContent.replace(/\d+/g, '').trim();
+        const items = Array.isArray(byVert[name]) ? byVert[name] : [];
+        if (!items.length) return;
+        const rows = col.querySelectorAll('.agg-item');
+        const slots = Math.min(items.length, rows.length);
+        for (let i = 0; i < slots; i++) {
+          const b = items[i];
+          const row = rows[i];
+          row.dataset.briefId = b.id;
+          row.removeAttribute('data-page');
+          const tierPill = b.tier === 'Tier I' ? '<span class="pill tier1">Tier I</span>' : '';
+          row.innerHTML =
+            '<div class="agg-meta">' +
+              tierPill +
+              statusPill(b.status_tag) +
+              '<span class="ts">' + esc(timeOf(b)) + '</span>' +
+            '</div>' +
+            '<h4 class="agg-head">' + (b.headline || '') + '</h4>' +
+            '<div class="agg-srcs">' + sourcesInline(b) + '</div>';
+        }
+      });
+    }
+
     // ---- ROUTING: rebind clicks (replaced innerHTML loses prior listeners) ----
     function populateArticle(b) {
       const page = document.getElementById('page-article');
