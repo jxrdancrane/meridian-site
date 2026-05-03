@@ -4558,9 +4558,11 @@
           <li><span class="rail-toc-num">06</span>Verification</li>
         </ul>
 
-        <div class="rail-label" style="margin-top: 32px;">Reading time</div>
-        <div style="font-family: var(--mono); font-size: 13px; color: var(--ink); padding: 8px 0 4px;">7 minutes</div>
-        <div style="font-family: var(--mono); font-size: 12px; color: var(--ink-mute); letter-spacing: 0.04em;">~ 1,340 words · 4 forecasts · 1 sim</div>
+        <div id="article-reading-time">
+          <div class="rail-label" style="margin-top: 32px;">Reading time</div>
+          <div style="font-family: var(--mono); font-size: 13px; color: var(--ink); padding: 8px 0 4px;">7 minutes</div>
+          <div style="font-family: var(--mono); font-size: 12px; color: var(--ink-mute); letter-spacing: 0.04em;">~ 1,340 words · 4 forecasts · 1 sim</div>
+        </div>
       </aside>
 
       <!-- ARTICLE MAIN -->
@@ -8418,8 +8420,12 @@
       if (page) {
         const activity = page.querySelector('.aside-activity');
         const meta = page.querySelector('#aside-brief-meta');
+        const readingTime = page.querySelector('#article-reading-time');
+        const moreIn = page.querySelector('.article-related');
         if (activity) activity.style.display = 'none';
         if (meta) meta.style.display = 'none';
+        if (readingTime) readingTime.style.display = 'none';
+        if (moreIn) moreIn.style.display = 'none';
       }
       if (typeof showPage === 'function') showPage('article');
     };
