@@ -1,63 +1,14 @@
 {
-  "generated_at": "2026-05-03T13:26:01+00:00",
+  "generated_at": "2026-05-04T05:46:53+00:00",
   "version": 1,
   "counts": {
-    "total": 12,
+    "total": 11,
     "by_vertical": {
       "Affairs": 8,
       "Business": 3
     }
   },
   "featured": [
-    {
-      "id": "b-4621ff329baf89d0",
-      "slug": "trump-evacuated-from-correspondents-dinner-after-shots-heard-at-venue-9baf89d0",
-      "headline": "Trump evacuated from correspondents' dinner after <em>shots heard</em> at venue",
-      "standfirst": "President Donald Trump was removed from the White House Correspondents' Association annual dinner on 25 April following gunfire outside the ballroom. Secret Service agents apprehended a suspect before he reached the event space. Trump was attending the dinner for the first time as president.",
-      "body_html": "<p>President Donald Trump was evacuated from the White House Correspondents' Association annual dinner on the evening of 25 April after shots were heard at the venue shortly after 8:30pm Washington time. Trump was seated on the dais with First Lady Melania Trump and Press Secretary Karoline Leavitt when loud bangs disrupted the event, prompting Secret Service agents to surround and remove him from the ballroom.</p><p>Secret Service agents apprehended a man before he reached the ballroom, according to ABC. The suspect's identity and motive have not been disclosed. No injuries have been reported among attendees or security personnel.</p><p>The incident marks Trump's first attendance at the correspondents' dinner as president. Previous presidents have traditionally attended the annual gathering of White House press corps and administration officials, though Trump boycotted the event during his first term. The dinner had been proceeding without incident before the disruption.</p><p>The evacuation follows established Secret Service protocols for potential threats to the president at public events. The agency has not released details on whether the suspect was armed or what charges may be filed. The dinner was not resumed following the evacuation.</p>",
-      "vertical": "Affairs",
-      "topic": "Presidential security incident",
-      "tier": "I",
-      "status_tag": "DEVELOPING",
-      "sources": [
-        {
-          "publisher": "Yonhap",
-          "domain": "en.yna.co.kr",
-          "url": "https://en.yna.co.kr/view/AEN20260426000400315",
-          "tier": "A",
-          "is_origin": true
-        },
-        {
-          "publisher": "straitstimes.com",
-          "domain": "straitstimes.com",
-          "url": "https://www.straitstimes.com/world/united-states/loud-bangs-and-a-trump-evacuation-chaos-at-white-house-correspondents-dinner",
-          "tier": "B",
-          "is_origin": false
-        },
-        {
-          "publisher": "hindustantimes.com",
-          "domain": "hindustantimes.com",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-evacuated-after-loud-bangs-heard-at-white-house-correspondents-dinner-101777164645183.html",
-          "tier": "B",
-          "is_origin": false
-        },
-        {
-          "publisher": "abc.net.au",
-          "domain": "abc.net.au",
-          "url": "https://www.abc.net.au/news/2026-04-26/donald-trump-evacuated-during-shooting-in-washington-explained/106608156",
-          "tier": "B",
-          "is_origin": false
-        }
-      ],
-      "origin_publisher": "Yonhap",
-      "origin_url": "https://en.yna.co.kr/view/AEN20260426000400315",
-      "score": 77,
-      "written_at": "2026-05-03T13:25:12+00:00",
-      "detected_at": "2026-04-26T04:26:58+00:00",
-      "verified_at": "2026-05-03T13:24:06+00:00",
-      "time_display": "23:25 AEST",
-      "sources_inline": "en.yna.co.kr · straitstimes.com · hindustantimes.com · abc.net.au"
-    },
     {
       "id": "b-eae9133218d006fe",
       "slug": "russian-strikes-kill-seven-across-ukraine-four-in-dnipro-residential-b-18d006fe",
@@ -162,6 +113,55 @@
       "verified_at": "2026-05-03T08:21:51+00:00",
       "time_display": "19:38 AEST",
       "sources_inline": "afr.com · apnews.com"
+    },
+    {
+      "id": "b-8e2f8bffb222b407",
+      "slug": "kmt-chair-meets-xi-in-beijing-frames-cross-strait-choice-as-war-or-pea-b222b407",
+      "headline": "KMT chair meets Xi in Beijing, frames cross-strait choice as <em>war or peace</em>",
+      "standfirst": "Cheng Li-wun held the first KMT–CPC leadership meeting in nine years on Friday, calling for stable relations while neither endorsing nor rejecting reunification. Xi reiterated the 1992 Consensus as opposing Taiwanese independence. The meeting occurs amid sustained PLA activity near Taiwan.",
+      "body_html": "<p>Cheng Li-wun, chair of Taiwan's opposition Kuomintang, met Chinese Communist Party General Secretary Xi Jinping in Beijing on Friday in the first such leadership encounter since 2016. Speaking to media afterward, Cheng characterised the cross-strait situation as a binary choice between war and peace, stating the visit aimed to demonstrate that the desire for stability is not Taiwan's alone.</p><p>Xi's opening remarks, delivered before media were asked to leave, framed the 1992 Consensus — a disputed understanding from informal talks three decades ago — as \"One China, oppose Taiwanese independence,\" according to The Diplomat. The KMT later released Cheng's full comments. At her press conference, Cheng declined to explicitly endorse or reject Beijing's reunification objective, instead emphasising the need to \"consolidate a stable relationship,\" according to NBC News.</p><p>The meeting takes place against a backdrop of intensified military pressure. People's Liberation Army air and naval operations near Taiwan have increased in frequency and scale since 2022, with near-daily incursions into the island's air defence identification zone. The KMT, which governed Taiwan until 2016 and advocates engagement with Beijing over the ruling Democratic Progressive Party's more cautious approach, holds a legislative majority but lost the presidency in January 2024.</p><p>Cheng's visit signals the KMT's effort to position itself as a conduit for dialogue at a moment when official cross-strait communication channels remain frozen. Whether Beijing reciprocates with substantive concessions — on trade restrictions imposed since 2021 or military posture — will determine if the meeting yields policy outcomes beyond symbolic value. The next test will be whether follow-on working-level contacts materialise in coming weeks.</p>",
+      "vertical": "Affairs",
+      "topic": "Cross-strait KMT–CPC dialogue",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "SCMP",
+          "domain": "scmp.com",
+          "url": "https://www.scmp.com/news/china/politics/article/3349640/takeaways-cheng-li-wuns-press-conference-about-meeting-xi-jinping?utm_source=rss_feed",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "abc.net.au",
+          "domain": "abc.net.au",
+          "url": "https://www.abc.net.au/news/2026-04-10/cheng-li-wun-meets-xi-jinping-in-china-for-first-time/106542048",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "nbcnews.com",
+          "domain": "nbcnews.com",
+          "url": "https://www.nbcnews.com/world/taiwan/chinas-xi-talks-peace-taiwans-opposition-leader-even-beijing-raises-mi-rcna273620",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "thediplomat.com",
+          "domain": "thediplomat.com",
+          "url": "https://thediplomat.com/2026/04/the-domestic-politics-of-cheng-li-wuns-china-trip/",
+          "tier": "C",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "SCMP",
+      "origin_url": "https://www.scmp.com/news/china/politics/article/3349640/takeaways-cheng-li-wuns-press-conference-about-meeting-xi-jinping?utm_source=rss_feed",
+      "score": 78,
+      "written_at": "2026-05-03T09:38:51+00:00",
+      "detected_at": "2026-04-26T04:42:12+00:00",
+      "verified_at": "2026-05-03T08:22:00+00:00",
+      "time_display": "19:38 AEST",
+      "sources_inline": "scmp.com · abc.net.au · nbcnews.com · thediplomat.com"
     }
   ],
   "by_vertical": {
@@ -384,55 +384,6 @@
         "sources_inline": "wsj.com · bbc.com · nbcnews.com · cbsnews.com"
       },
       {
-        "id": "b-4621ff329baf89d0",
-        "slug": "trump-evacuated-from-correspondents-dinner-after-shots-heard-at-venue-9baf89d0",
-        "headline": "Trump evacuated from correspondents' dinner after <em>shots heard</em> at venue",
-        "standfirst": "President Donald Trump was removed from the White House Correspondents' Association annual dinner on 25 April following gunfire outside the ballroom. Secret Service agents apprehended a suspect before he reached the event space. Trump was attending the dinner for the first time as president.",
-        "body_html": "<p>President Donald Trump was evacuated from the White House Correspondents' Association annual dinner on the evening of 25 April after shots were heard at the venue shortly after 8:30pm Washington time. Trump was seated on the dais with First Lady Melania Trump and Press Secretary Karoline Leavitt when loud bangs disrupted the event, prompting Secret Service agents to surround and remove him from the ballroom.</p><p>Secret Service agents apprehended a man before he reached the ballroom, according to ABC. The suspect's identity and motive have not been disclosed. No injuries have been reported among attendees or security personnel.</p><p>The incident marks Trump's first attendance at the correspondents' dinner as president. Previous presidents have traditionally attended the annual gathering of White House press corps and administration officials, though Trump boycotted the event during his first term. The dinner had been proceeding without incident before the disruption.</p><p>The evacuation follows established Secret Service protocols for potential threats to the president at public events. The agency has not released details on whether the suspect was armed or what charges may be filed. The dinner was not resumed following the evacuation.</p>",
-        "vertical": "Affairs",
-        "topic": "Presidential security incident",
-        "tier": "I",
-        "status_tag": "DEVELOPING",
-        "sources": [
-          {
-            "publisher": "Yonhap",
-            "domain": "en.yna.co.kr",
-            "url": "https://en.yna.co.kr/view/AEN20260426000400315",
-            "tier": "A",
-            "is_origin": true
-          },
-          {
-            "publisher": "straitstimes.com",
-            "domain": "straitstimes.com",
-            "url": "https://www.straitstimes.com/world/united-states/loud-bangs-and-a-trump-evacuation-chaos-at-white-house-correspondents-dinner",
-            "tier": "B",
-            "is_origin": false
-          },
-          {
-            "publisher": "hindustantimes.com",
-            "domain": "hindustantimes.com",
-            "url": "https://www.hindustantimes.com/world-news/us-news/trump-evacuated-after-loud-bangs-heard-at-white-house-correspondents-dinner-101777164645183.html",
-            "tier": "B",
-            "is_origin": false
-          },
-          {
-            "publisher": "abc.net.au",
-            "domain": "abc.net.au",
-            "url": "https://www.abc.net.au/news/2026-04-26/donald-trump-evacuated-during-shooting-in-washington-explained/106608156",
-            "tier": "B",
-            "is_origin": false
-          }
-        ],
-        "origin_publisher": "Yonhap",
-        "origin_url": "https://en.yna.co.kr/view/AEN20260426000400315",
-        "score": 77,
-        "written_at": "2026-05-03T13:25:12+00:00",
-        "detected_at": "2026-04-26T04:26:58+00:00",
-        "verified_at": "2026-05-03T13:24:06+00:00",
-        "time_display": "23:25 AEST",
-        "sources_inline": "en.yna.co.kr · straitstimes.com · hindustantimes.com · abc.net.au"
-      },
-      {
         "id": "b-2af47bbd937259ab",
         "slug": "kmt-chair-cheng-meets-xi-in-beijing-floats-invitation-to-taiwan-if-par-937259ab",
         "headline": "KMT chair Cheng meets Xi in Beijing, floats <em>invitation to Taiwan</em> if party wins 2028",
@@ -501,6 +452,41 @@
         "verified_at": "2026-05-03T13:24:27+00:00",
         "time_display": "23:25 AEST",
         "sources_inline": "theguardian.com · politico.eu"
+      },
+      {
+        "id": "b-409aace8da0a714d",
+        "slug": "raf-typhoons-scramble-from-romania-as-russian-drones-approach-nato-air-da0a714d",
+        "headline": "RAF Typhoons scramble from Romania as Russian drones <em>approach NATO airspace</em>",
+        "standfirst": "Two British fighter jets deployed from a Romanian base intercepted Russian unmanned aircraft near the alliance's eastern boundary but remained outside Ukrainian airspace. British defence sources denied reports the aircraft engaged targets over Ukraine, which would have marked direct UK-Russia combat.",
+        "body_html": "<p>Two RAF Typhoons scrambled from Romania on 25 April to intercept Russian drones operating close to NATO airspace, according to British defence sources. The fighters did not cross into Ukrainian territory and did not open fire, contradicting earlier reports that suggested the RAF had shot down Russian aircraft over Ukraine.</p><p>The deployment represents the latest instance of heightened air-policing activity along NATO's eastern flank. British Typhoons conducted similar intercepts over the Baltic Sea on 15 April against a Russian Ilyushin Il-20M intelligence aircraft, and again on 17 April against an unidentified aircraft departing Kaliningrad airspace, according to the BBC.</p><p>British defence officials emphasised that the Romanian-based fighters remained within NATO airspace throughout the engagement. The clarification addresses concern that direct combat between UK forces and Russian assets would constitute a significant escalation in the Ukraine conflict, potentially triggering Article 5 considerations or retaliatory strikes.</p><p>The incident underscores the operational tempo of NATO air patrols in Romania, which borders Ukraine along a 650-kilometre frontier. Russian drone incursions near alliance airspace have increased as Moscow intensifies long-range strike campaigns against Ukrainian infrastructure, raising the probability of inadvertent boundary violations or misidentification events.</p><p>NATO has not publicly commented on the specific engagement. The alliance maintains enhanced air-policing missions across its eastern members, with rotating detachments from member air forces supplementing national quick-reaction alert capabilities.</p>",
+        "vertical": "Affairs",
+        "topic": "NATO air policing",
+        "tier": "II",
+        "status_tag": "CONFIRMED",
+        "sources": [
+          {
+            "publisher": "Guardian World",
+            "domain": "theguardian.com",
+            "url": "https://www.theguardian.com/uk-news/2026/apr/25/raf-typhoons-scrambled-russia-drone-nato-romania-ukraine",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "bbc.com",
+            "domain": "bbc.com",
+            "url": "https://www.bbc.com/news/articles/cx2y515gzq7o",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "Guardian World",
+        "origin_url": "https://www.theguardian.com/uk-news/2026/apr/25/raf-typhoons-scrambled-russia-drone-nato-romania-ukraine",
+        "score": 76,
+        "written_at": "2026-05-03T13:25:47+00:00",
+        "detected_at": "2026-04-26T04:38:28+00:00",
+        "verified_at": "2026-05-03T13:24:30+00:00",
+        "time_display": "23:25 AEST",
+        "sources_inline": "theguardian.com · bbc.com"
       }
     ],
     "Business": [
@@ -730,55 +716,6 @@
       "verified_at": "2026-05-03T13:24:22+00:00",
       "time_display": "23:25 AEST",
       "sources_inline": "scmp.com · theguardian.com"
-    },
-    {
-      "id": "b-4621ff329baf89d0",
-      "slug": "trump-evacuated-from-correspondents-dinner-after-shots-heard-at-venue-9baf89d0",
-      "headline": "Trump evacuated from correspondents' dinner after <em>shots heard</em> at venue",
-      "standfirst": "President Donald Trump was removed from the White House Correspondents' Association annual dinner on 25 April following gunfire outside the ballroom. Secret Service agents apprehended a suspect before he reached the event space. Trump was attending the dinner for the first time as president.",
-      "body_html": "<p>President Donald Trump was evacuated from the White House Correspondents' Association annual dinner on the evening of 25 April after shots were heard at the venue shortly after 8:30pm Washington time. Trump was seated on the dais with First Lady Melania Trump and Press Secretary Karoline Leavitt when loud bangs disrupted the event, prompting Secret Service agents to surround and remove him from the ballroom.</p><p>Secret Service agents apprehended a man before he reached the ballroom, according to ABC. The suspect's identity and motive have not been disclosed. No injuries have been reported among attendees or security personnel.</p><p>The incident marks Trump's first attendance at the correspondents' dinner as president. Previous presidents have traditionally attended the annual gathering of White House press corps and administration officials, though Trump boycotted the event during his first term. The dinner had been proceeding without incident before the disruption.</p><p>The evacuation follows established Secret Service protocols for potential threats to the president at public events. The agency has not released details on whether the suspect was armed or what charges may be filed. The dinner was not resumed following the evacuation.</p>",
-      "vertical": "Affairs",
-      "topic": "Presidential security incident",
-      "tier": "I",
-      "status_tag": "DEVELOPING",
-      "sources": [
-        {
-          "publisher": "Yonhap",
-          "domain": "en.yna.co.kr",
-          "url": "https://en.yna.co.kr/view/AEN20260426000400315",
-          "tier": "A",
-          "is_origin": true
-        },
-        {
-          "publisher": "straitstimes.com",
-          "domain": "straitstimes.com",
-          "url": "https://www.straitstimes.com/world/united-states/loud-bangs-and-a-trump-evacuation-chaos-at-white-house-correspondents-dinner",
-          "tier": "B",
-          "is_origin": false
-        },
-        {
-          "publisher": "hindustantimes.com",
-          "domain": "hindustantimes.com",
-          "url": "https://www.hindustantimes.com/world-news/us-news/trump-evacuated-after-loud-bangs-heard-at-white-house-correspondents-dinner-101777164645183.html",
-          "tier": "B",
-          "is_origin": false
-        },
-        {
-          "publisher": "abc.net.au",
-          "domain": "abc.net.au",
-          "url": "https://www.abc.net.au/news/2026-04-26/donald-trump-evacuated-during-shooting-in-washington-explained/106608156",
-          "tier": "B",
-          "is_origin": false
-        }
-      ],
-      "origin_publisher": "Yonhap",
-      "origin_url": "https://en.yna.co.kr/view/AEN20260426000400315",
-      "score": 77,
-      "written_at": "2026-05-03T13:25:12+00:00",
-      "detected_at": "2026-04-26T04:26:58+00:00",
-      "verified_at": "2026-05-03T13:24:06+00:00",
-      "time_display": "23:25 AEST",
-      "sources_inline": "en.yna.co.kr · straitstimes.com · hindustantimes.com · abc.net.au"
     },
     {
       "id": "b-e76218bd0fbac60e",
