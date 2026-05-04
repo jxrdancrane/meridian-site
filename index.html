@@ -8225,6 +8225,23 @@
     }
     window.MERIDIAN_BRIEFS = payload;
 
+    // ---- HEADER META: live date and issued count (verify time not yet tracked) ----
+    try {
+      const meta = document.querySelector('.subnav-meta');
+      const total = payload && payload.counts && typeof payload.counts.total === 'number' ? payload.counts.total : null;
+      if (meta && total != null) {
+        const now = new Date();
+        const wd = now.toLocaleDateString(undefined, { weekday: 'short' });
+        const day = now.getDate();
+        const mo = now.toLocaleDateString(undefined, { month: 'short' });
+        const yr = now.getFullYear();
+        meta.innerHTML =
+          '<span>' + wd + ' ' + day + ' ' + mo + ' ' + yr + '</span>' +
+          '<span><strong>' + total + '</strong> issued</span>' +
+          '<span><strong>live</strong></span>';
+      }
+    } catch (_) { /* leave hardcoded markup intact */ }
+
     const featured = Array.isArray(payload.featured) ? payload.featured : [];
     const all = Array.isArray(payload.all) ? payload.all : [];
     const byVert = (payload.by_vertical && typeof payload.by_vertical === 'object') ? payload.by_vertical : {};
