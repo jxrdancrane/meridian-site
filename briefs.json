@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-05-04T06:17:56+00:00",
+  "generated_at": "2026-05-04T06:58:18+00:00",
   "version": 1,
   "counts": {
-    "total": 5,
+    "total": 17,
     "by_vertical": {
-      "Affairs": 4,
-      "Business": 1
+      "Affairs": 8,
+      "Culture": 1,
+      "Business": 2
     }
   },
   "featured": [
@@ -59,6 +60,97 @@
       "sources_inline": "wsj.com · axios.com · theguardian.com · aljazeera.com"
     },
     {
+      "id": "b-f1342e460017d397",
+      "slug": "pentagon-deployed-ai-accelerated-targeting-in-iran-strikes-compressing-0017d397",
+      "headline": "Pentagon deployed <em>AI-accelerated targeting</em> in Iran strikes, compressing kill-chain cycle",
+      "standfirst": "US military struck over 2,000 targets across Iran in four days using artificial intelligence systems to accelerate target identification and approval workflows. Anthropic's Claude model reportedly supported the operation, marking a operational shift in how the Pentagon prosecutes large-scale strike campaigns.",
+      "body_html": "<p>The US Department of Defense executed strikes against more than 2,000 targets in Iran over a four-day period, employing artificial intelligence systems to compress the decision cycle from intelligence collection to weapon release. The tempo represents a departure from prior strike campaigns in scale and speed.</p><p>AI models processed intelligence streams to identify targets and route strike packages through legal and operational approval chains. Anthropic's Claude system was used during the operation, according to reporting, though the specific tasks assigned to the model have not been disclosed by the Pentagon. The technology reduces the time required to move from target acquisition to authorisation and launch—a sequence military planners call the kill chain.</p><p>The deployment reflects broader Pentagon investment in machine-learning tools designed to manage the volume and velocity of battlefield data. Traditional targeting workflows rely on human analysts to correlate intelligence from sensors, signals intercepts, and imagery. AI systems automate portions of this correlation work, surfacing candidate targets and pre-populating strike requests with supporting data.</p><p>The Iran operation's scale—2,000 targets in 96 hours—would strain conventional staffing models. By comparison, the 2003 invasion of Iraq involved approximately 1,700 air-to-ground strikes in the first two days, a pace sustained by a larger force structure and longer planning windows. The four-day Iran campaign suggests the Pentagon now operates with different assumptions about the time required to generate and prosecute targets at volume.</p><p>No public statement from the Department of Defense has detailed the AI systems' role or the safeguards applied to automated recommendations. The use of commercial large language models in kinetic operations raises questions about model transparency, error rates in target classification, and the locus of human decision authority within accelerated workflows.</p>",
+      "vertical": "Affairs",
+      "topic": "AI-enabled military targeting",
+      "tier": "I",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "Nikkei Asia",
+          "domain": "asia.nikkei.com",
+          "url": "https://asia.nikkei.com/spotlight/comment/how-ai-speeds-kill-chain-in-us-attacks-on-iran",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "afr.com",
+          "domain": "afr.com",
+          "url": "https://www.afr.com/world/middle-east/how-ai-kill-chains-are-speeding-up-the-us-war-on-iran-20260313-p5oa3w",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "theguardian.com",
+          "domain": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/mar/03/iran-war-heralds-era-of-ai-powered-bombing-quicker-than-speed-of-thought",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "Nikkei Asia",
+      "origin_url": "https://asia.nikkei.com/spotlight/comment/how-ai-speeds-kill-chain-in-us-attacks-on-iran",
+      "score": 83,
+      "written_at": "2026-05-04T06:55:20+00:00",
+      "detected_at": "2026-05-04T06:24:09+00:00",
+      "verified_at": "2026-05-04T06:51:45+00:00",
+      "time_display": "16:55 AEST",
+      "sources_inline": "asia.nikkei.com · afr.com · theguardian.com"
+    },
+    {
+      "id": "b-d4cc46eccd08d70c",
+      "slug": "us-to-begin-guided-transit-operation-for-stranded-vessels-in-strait-of-cd08d70c",
+      "headline": "US to begin <em>guided transit</em> operation for stranded vessels in Strait of Hormuz",
+      "standfirst": "President Trump announced a Monday start for what he termed a humanitarian effort to extract ships from the Iran-controlled waterway. The move follows reported attacks on two vessels near the strait as Washington describes ongoing talks with Tehran as very positive.",
+      "body_html": "<p>The United States will commence operations on Monday to guide commercial vessels out of the Strait of Hormuz, President Donald Trump said, characterising the effort as humanitarian in nature. Trump provided limited operational detail on what could constitute a significant naval undertaking involving hundreds of ships and an estimated 20,000 seafarers currently in or near the waterway.</p><p>The announcement follows reports of attacks on two vessels in the vicinity of the strait, though Trump did not explicitly link the incidents to the planned extraction operation. Iran maintains de facto control over the Strait of Hormuz, through which roughly one-fifth of global oil supply transits.</p><p>Trump described concurrent diplomatic engagement with Iran as \"very positive discussions,\" according to the Financial Times, though he did not specify whether the guided-transit operation had been coordinated with Tehran or would proceed unilaterally. The White House has not clarified whether US naval assets will enter Iranian territorial waters, what rules of engagement will govern potential confrontations, or how long the operation is expected to last.</p><p>The strait has been a flashpoint in US-Iran relations for decades, with periodic threats of closure by Tehran typically prompting international naval escorts. The scale Trump suggested — potentially affecting hundreds of commercial vessels — would represent the largest such operation since the 1980s tanker war. Energy markets will watch whether the operation proceeds as stated and whether Iran acquiesces or contests the US naval presence.</p>",
+      "vertical": "Affairs",
+      "topic": "Strait of Hormuz transit operation",
+      "tier": "I",
+      "status_tag": "DEVELOPING",
+      "sources": [
+        {
+          "publisher": "Financial Times",
+          "domain": "ft.com",
+          "url": "https://www.ft.com/content/7ec081ca-3b1d-4fbe-b29a-a3b0b08efc41",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "apnews.com",
+          "domain": "apnews.com",
+          "url": "https://apnews.com/article/iran-us-war-ceasefire-negotiations-strait-454006a0a9bb19a45a2f299c0869cefb",
+          "tier": "A",
+          "is_origin": false
+        },
+        {
+          "publisher": "npr.org",
+          "domain": "npr.org",
+          "url": "https://www.npr.org/2026/05/03/nx-s1-5809536/trump-strait-hormuz",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "pbs.org",
+          "domain": "pbs.org",
+          "url": "https://www.pbs.org/newshour/world/trump-says-u-s-will-help-guide-stranded-ships-from-strait-of-hormuz-starting-monday",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "Financial Times",
+      "origin_url": "https://www.ft.com/content/7ec081ca-3b1d-4fbe-b29a-a3b0b08efc41",
+      "score": 83,
+      "written_at": "2026-05-04T06:55:36+00:00",
+      "detected_at": "2026-05-04T06:01:46+00:00",
+      "verified_at": "2026-05-04T06:12:00+00:00",
+      "time_display": "16:55 AEST",
+      "sources_inline": "ft.com · apnews.com · npr.org · pbs.org"
+    },
+    {
       "id": "b-e76218bd0fbac60e",
       "slug": "vanke-reports-11-8bn-loss-as-china-s-property-crisis-spreads-to-state--0fbac60e",
       "headline": "Vanke reports $11.8bn loss as China's property crisis <em>spreads to state-backed developers</em>",
@@ -106,97 +198,6 @@
       "verified_at": "2026-05-04T06:13:00+00:00",
       "time_display": "16:15 AEST",
       "sources_inline": "wsj.com · bloomberg.com · scmp.com · marketwatch.com"
-    },
-    {
-      "id": "b-c42aefabad4f9cf3",
-      "slug": "rwanda-backed-m23-rebels-seize-goma-and-bukavu-displacing-one-million--ad4f9cf3",
-      "headline": "Rwanda-backed M23 rebels seize Goma and Bukavu, displacing <em>one million</em> inside Congo's eastern cities",
-      "standfirst": "M23 forces entered Goma and Bukavu after Congolese government troops collapsed or fled with minimal resistance. UN officials estimate over one million displaced persons now concentrated in Goma. The dual-city seizure marks the deepest M23 penetration into Congolese urban centres since the group's resurgence.",
-      "body_html": "<p>Rwanda-backed M23 rebels entered Goma, the capital of North Kivu province and eastern Congo's largest city, on Sunday after overrunning Congolese government forces. Residents reported gunfire and shelling as the city fell. UN officials estimate more than one million internally displaced persons are now inside Goma, concentrated in what had been considered a relative safe haven.</p><p>M23 forces simultaneously took Bukavu, the second-largest city in eastern Congo and capital of South Kivu province. Governor Jean-Jacques Purusi confirmed rebels reached the city centre Sunday morning and seized the provincial administrative office. Government troops offered little resistance; many fled the advance according to multiple accounts.</p><p>The coordinated seizure of both cities represents the most significant territorial gain by M23 since the group re-emerged in 2021 after a seven-year dormancy. Goma, with a pre-conflict population exceeding two million, sits on the Rwandan border and controls key transport corridors into Uganda. Bukavu lies 100 kilometres south on Lake Kivu's western shore.</p><p>Congo's government and independent investigators have documented Rwandan military support for M23, including troop deployments and artillery. Rwanda denies direct involvement but acknowledges security concerns along its border. The collapse of Congolese forces in both cities suggests either strategic withdrawal or systemic command failure.</p><p>The concentration of over one million displaced persons in Goma creates acute humanitarian exposure. The city's infrastructure was already strained before the rebel advance. No international evacuation operations have been announced. Regional mediation efforts, led by Angola and Kenya, have produced no ceasefire.</p>",
-      "vertical": "Affairs",
-      "topic": "M23 seizure of eastern Congo",
-      "tier": "I",
-      "status_tag": "CONFIRMED",
-      "sources": [
-        {
-          "publisher": "WSJ World",
-          "domain": "wsj.com",
-          "url": "https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8",
-          "tier": "B",
-          "is_origin": true
-        },
-        {
-          "publisher": "npr.org",
-          "domain": "npr.org",
-          "url": "https://www.npr.org/2025/01/26/nx-s1-5275358/rwanda-backed-rebels-claim-to-have-seized-key-city-in-congo",
-          "tier": "B",
-          "is_origin": false
-        },
-        {
-          "publisher": "nbcnews.com",
-          "domain": "nbcnews.com",
-          "url": "https://www.nbcnews.com/news/world/rwanda-drc-congo-bukavu-kivu-africa-m23-hutus-tutsis-rcna192381",
-          "tier": "B",
-          "is_origin": false
-        },
-        {
-          "publisher": "aljazeera.com",
-          "domain": "aljazeera.com",
-          "url": "https://www.aljazeera.com/news/2025/2/16/dr-congos-m23-rebels-enter-centre-of-strategic-city-bukavu-report",
-          "tier": "B",
-          "is_origin": false
-        }
-      ],
-      "origin_publisher": "WSJ World",
-      "origin_url": "https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8",
-      "score": 76,
-      "written_at": "2026-05-04T06:15:56+00:00",
-      "detected_at": "2026-05-04T06:02:45+00:00",
-      "verified_at": "2026-05-04T06:13:16+00:00",
-      "time_display": "16:15 AEST",
-      "sources_inline": "wsj.com · npr.org · nbcnews.com · aljazeera.com"
-    },
-    {
-      "id": "b-1b9f3e6ddddd5cc6",
-      "slug": "colombia-accepts-us-deportation-flights-averting-trump-tariff-threat-dddd5cc6",
-      "headline": "Colombia accepts US deportation flights, averting Trump tariff threat",
-      "standfirst": "Colombia agreed to receive deported nationals on US military aircraft without restriction, ending a brief standoff that prompted President Trump to threaten steep tariffs. The resolution came hours after Trump announced punitive trade measures. ICE conducted more than 900 arrests Sunday as the administration accelerates immigration enforcement.",
-      "body_html": "<p>Colombia reversed its initial refusal to accept US military deportation flights late Sunday, agreeing to receive all Colombian nationals returned from the United States without limitation or delay. The agreement followed threats from President Trump to impose tariffs and visa restrictions on Colombian officials and nationals.</p><p>The White House confirmed Colombia accepted all terms, including the use of US military aircraft for deportations. The standoff lasted less than 24 hours. Trump had announced the tariff threat earlier Sunday after Colombia's government initially declined to receive the flights.</p><p>The resolution marks an early test of Trump's second-term immigration enforcement strategy, which he has designated a priority. Immigration and Customs Enforcement arrested more than 900 individuals Sunday, according to the Wall Street Journal, signalling an operational tempo above recent historical norms.</p><p>The Colombia episode establishes a template: threatened trade measures as leverage for migration cooperation. No tariffs were ultimately imposed. The speed of Colombia's reversal suggests limited appetite among regional governments to absorb economic costs over deportation logistics, particularly given US market access dependencies.</p><p>The incident also clarifies that the administration will use military assets for deportation operations, a departure from previous practice that relied primarily on chartered civilian aircraft. Whether other countries will accept military flights without similar confrontations remains untested.</p>",
-      "vertical": "Affairs",
-      "topic": "US-Colombia migration enforcement",
-      "tier": "II",
-      "status_tag": "CONFIRMED",
-      "sources": [
-        {
-          "publisher": "WSJ World",
-          "domain": "wsj.com",
-          "url": "https://www.wsj.com/articles/trump-says-colombia-will-face-25-tariffs-amid-fight-over-deportation-flights-e32dc497",
-          "tier": "B",
-          "is_origin": true
-        },
-        {
-          "publisher": "cnn.com",
-          "domain": "cnn.com",
-          "url": "https://www.cnn.com/2025/01/26/politics/colombia-tariffs-trump-deportation-flights",
-          "tier": "B",
-          "is_origin": false
-        },
-        {
-          "publisher": "nbcnews.com",
-          "domain": "nbcnews.com",
-          "url": "https://www.nbcnews.com/politics/donald-trump/live-blog/trump-administration-miami-republican-conference-live-updates-rcna189223",
-          "tier": "B",
-          "is_origin": false
-        }
-      ],
-      "origin_publisher": "WSJ World",
-      "origin_url": "https://www.wsj.com/articles/trump-says-colombia-will-face-25-tariffs-amid-fight-over-deportation-flights-e32dc497",
-      "score": 78,
-      "written_at": "2026-05-04T06:15:28+00:00",
-      "detected_at": "2026-05-04T06:09:29+00:00",
-      "verified_at": "2026-05-04T06:12:53+00:00",
-      "time_display": "16:15 AEST",
-      "sources_inline": "wsj.com · cnn.com · nbcnews.com"
     }
   ],
   "by_vertical": {
@@ -251,6 +252,174 @@
         "sources_inline": "wsj.com · axios.com · theguardian.com · aljazeera.com"
       },
       {
+        "id": "b-f1342e460017d397",
+        "slug": "pentagon-deployed-ai-accelerated-targeting-in-iran-strikes-compressing-0017d397",
+        "headline": "Pentagon deployed <em>AI-accelerated targeting</em> in Iran strikes, compressing kill-chain cycle",
+        "standfirst": "US military struck over 2,000 targets across Iran in four days using artificial intelligence systems to accelerate target identification and approval workflows. Anthropic's Claude model reportedly supported the operation, marking a operational shift in how the Pentagon prosecutes large-scale strike campaigns.",
+        "body_html": "<p>The US Department of Defense executed strikes against more than 2,000 targets in Iran over a four-day period, employing artificial intelligence systems to compress the decision cycle from intelligence collection to weapon release. The tempo represents a departure from prior strike campaigns in scale and speed.</p><p>AI models processed intelligence streams to identify targets and route strike packages through legal and operational approval chains. Anthropic's Claude system was used during the operation, according to reporting, though the specific tasks assigned to the model have not been disclosed by the Pentagon. The technology reduces the time required to move from target acquisition to authorisation and launch—a sequence military planners call the kill chain.</p><p>The deployment reflects broader Pentagon investment in machine-learning tools designed to manage the volume and velocity of battlefield data. Traditional targeting workflows rely on human analysts to correlate intelligence from sensors, signals intercepts, and imagery. AI systems automate portions of this correlation work, surfacing candidate targets and pre-populating strike requests with supporting data.</p><p>The Iran operation's scale—2,000 targets in 96 hours—would strain conventional staffing models. By comparison, the 2003 invasion of Iraq involved approximately 1,700 air-to-ground strikes in the first two days, a pace sustained by a larger force structure and longer planning windows. The four-day Iran campaign suggests the Pentagon now operates with different assumptions about the time required to generate and prosecute targets at volume.</p><p>No public statement from the Department of Defense has detailed the AI systems' role or the safeguards applied to automated recommendations. The use of commercial large language models in kinetic operations raises questions about model transparency, error rates in target classification, and the locus of human decision authority within accelerated workflows.</p>",
+        "vertical": "Affairs",
+        "topic": "AI-enabled military targeting",
+        "tier": "I",
+        "status_tag": "CONFIRMED",
+        "sources": [
+          {
+            "publisher": "Nikkei Asia",
+            "domain": "asia.nikkei.com",
+            "url": "https://asia.nikkei.com/spotlight/comment/how-ai-speeds-kill-chain-in-us-attacks-on-iran",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "afr.com",
+            "domain": "afr.com",
+            "url": "https://www.afr.com/world/middle-east/how-ai-kill-chains-are-speeding-up-the-us-war-on-iran-20260313-p5oa3w",
+            "tier": "B",
+            "is_origin": false
+          },
+          {
+            "publisher": "theguardian.com",
+            "domain": "theguardian.com",
+            "url": "https://www.theguardian.com/technology/2026/mar/03/iran-war-heralds-era-of-ai-powered-bombing-quicker-than-speed-of-thought",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "Nikkei Asia",
+        "origin_url": "https://asia.nikkei.com/spotlight/comment/how-ai-speeds-kill-chain-in-us-attacks-on-iran",
+        "score": 83,
+        "written_at": "2026-05-04T06:55:20+00:00",
+        "detected_at": "2026-05-04T06:24:09+00:00",
+        "verified_at": "2026-05-04T06:51:45+00:00",
+        "time_display": "16:55 AEST",
+        "sources_inline": "asia.nikkei.com · afr.com · theguardian.com"
+      },
+      {
+        "id": "b-d4cc46eccd08d70c",
+        "slug": "us-to-begin-guided-transit-operation-for-stranded-vessels-in-strait-of-cd08d70c",
+        "headline": "US to begin <em>guided transit</em> operation for stranded vessels in Strait of Hormuz",
+        "standfirst": "President Trump announced a Monday start for what he termed a humanitarian effort to extract ships from the Iran-controlled waterway. The move follows reported attacks on two vessels near the strait as Washington describes ongoing talks with Tehran as very positive.",
+        "body_html": "<p>The United States will commence operations on Monday to guide commercial vessels out of the Strait of Hormuz, President Donald Trump said, characterising the effort as humanitarian in nature. Trump provided limited operational detail on what could constitute a significant naval undertaking involving hundreds of ships and an estimated 20,000 seafarers currently in or near the waterway.</p><p>The announcement follows reports of attacks on two vessels in the vicinity of the strait, though Trump did not explicitly link the incidents to the planned extraction operation. Iran maintains de facto control over the Strait of Hormuz, through which roughly one-fifth of global oil supply transits.</p><p>Trump described concurrent diplomatic engagement with Iran as \"very positive discussions,\" according to the Financial Times, though he did not specify whether the guided-transit operation had been coordinated with Tehran or would proceed unilaterally. The White House has not clarified whether US naval assets will enter Iranian territorial waters, what rules of engagement will govern potential confrontations, or how long the operation is expected to last.</p><p>The strait has been a flashpoint in US-Iran relations for decades, with periodic threats of closure by Tehran typically prompting international naval escorts. The scale Trump suggested — potentially affecting hundreds of commercial vessels — would represent the largest such operation since the 1980s tanker war. Energy markets will watch whether the operation proceeds as stated and whether Iran acquiesces or contests the US naval presence.</p>",
+        "vertical": "Affairs",
+        "topic": "Strait of Hormuz transit operation",
+        "tier": "I",
+        "status_tag": "DEVELOPING",
+        "sources": [
+          {
+            "publisher": "Financial Times",
+            "domain": "ft.com",
+            "url": "https://www.ft.com/content/7ec081ca-3b1d-4fbe-b29a-a3b0b08efc41",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "apnews.com",
+            "domain": "apnews.com",
+            "url": "https://apnews.com/article/iran-us-war-ceasefire-negotiations-strait-454006a0a9bb19a45a2f299c0869cefb",
+            "tier": "A",
+            "is_origin": false
+          },
+          {
+            "publisher": "npr.org",
+            "domain": "npr.org",
+            "url": "https://www.npr.org/2026/05/03/nx-s1-5809536/trump-strait-hormuz",
+            "tier": "B",
+            "is_origin": false
+          },
+          {
+            "publisher": "pbs.org",
+            "domain": "pbs.org",
+            "url": "https://www.pbs.org/newshour/world/trump-says-u-s-will-help-guide-stranded-ships-from-strait-of-hormuz-starting-monday",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "Financial Times",
+        "origin_url": "https://www.ft.com/content/7ec081ca-3b1d-4fbe-b29a-a3b0b08efc41",
+        "score": 83,
+        "written_at": "2026-05-04T06:55:36+00:00",
+        "detected_at": "2026-05-04T06:01:46+00:00",
+        "verified_at": "2026-05-04T06:12:00+00:00",
+        "time_display": "16:55 AEST",
+        "sources_inline": "ft.com · apnews.com · npr.org · pbs.org"
+      },
+      {
+        "id": "b-94870af43a962ba7",
+        "slug": "u-s-indictment-of-mexican-governor-tests-sheinbaum-s-cartel-strategy-3a962ba7",
+        "headline": "U.S. indictment of Mexican governor tests Sheinbaum's <em>cartel strategy</em>",
+        "standfirst": "The indictment of a sitting Mexican governor on cartel-linked charges has strained bilateral relations and forced President Claudia Sheinbaum into a public choice between domestic sovereignty claims and Washington's extradition pressure. Mexico extradited 37 cartel members this week as the Trump administration escalates enforcement demands.",
+        "body_html": "<p>The United States has indicted a Mexican state governor on charges tied to drug cartel activity, creating a diplomatic flashpoint that compels President Claudia Sheinbaum to navigate between anti-corruption credibility and resistance to perceived U.S. overreach. The case arrives as the Trump administration intensifies pressure on Mexico City to dismantle trafficking networks operating across the shared border.</p><p>Mexico's security ministry confirmed Tuesday it had extradited 37 cartel operatives to U.S. custody, according to PBS, a move that signals tactical cooperation even as the governor's indictment exposes friction over jurisdiction and sovereignty. The extraditions represent one of the larger single transfers of cartel suspects in recent months, occurring within days of the indictment's public disclosure.</p><p>Sheinbaum faces a decision with limited upside: defending the governor risks appearing complicit in corruption that has long eroded state capacity in border regions, while acquiescing to extradition invites domestic criticism that she is ceding judicial authority to Washington. The governor's indictment is unusual in targeting a sitting state executive, a category of official historically shielded from U.S. prosecution by diplomatic convention and Mexico's own legal protections for officeholders.</p><p>The case underscores the structural challenge facing both governments. Cartel penetration of Mexican state institutions remains extensive, particularly in regions where trafficking routes converge. U.S. prosecutors have increasingly bypassed diplomatic channels to indict Mexican officials, a practice Mexico's previous administration resisted. Sheinbaum, in office since October, has not yet articulated a formal doctrine on extradition of officials, leaving her response to this case as a potential precedent.</p><p>The Trump administration's renewed focus on cartel enforcement includes threats of tariffs and border restrictions if Mexico does not accelerate interdiction efforts. The 37 extraditions may serve as a down payment on cooperation, but the governor's case will test whether Sheinbaum can satisfy Washington's demands without triggering nationalist backlash or undermining her own anti-corruption platform.</p>",
+        "vertical": "Affairs",
+        "topic": "US-Mexico cartel enforcement",
+        "tier": "II",
+        "status_tag": "CONFIRMED",
+        "sources": [
+          {
+            "publisher": "NYT World",
+            "domain": "nytimes.com",
+            "url": "https://www.nytimes.com/2026/05/03/world/americas/mexico-sinaloa-corruption.html",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "pbs.org",
+            "domain": "pbs.org",
+            "url": "https://www.pbs.org/newshour/world/mexico-sends-37-drug-cartel-members-to-u-s-in-latest-offer-to-trump-administration",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "NYT World",
+        "origin_url": "https://www.nytimes.com/2026/05/03/world/americas/mexico-sinaloa-corruption.html",
+        "score": 81,
+        "written_at": "2026-05-04T06:55:49+00:00",
+        "detected_at": "2026-05-04T06:11:18+00:00",
+        "verified_at": "2026-05-04T06:52:01+00:00",
+        "time_display": "16:55 AEST",
+        "sources_inline": "nytimes.com · pbs.org"
+      },
+      {
+        "id": "b-a8ef27cf5983c9c4",
+        "slug": "china-leverages-ceasefire-diplomacy-with-iran-while-dual-use-exports-c-5983c9c4",
+        "headline": "China leverages ceasefire diplomacy with Iran while <em>dual-use exports</em> continue",
+        "standfirst": "Beijing brokered Iranian acceptance of a Pakistan-mediated ceasefire ahead of a planned Trump visit, even as Chinese firms export material with potential military applications to Tehran. The move positions China as both peacemaker and strategic supplier in the Middle East.",
+        "body_html": "<p>China played a decisive role in securing Iranian acceptance of a ceasefire publicly brokered by Pakistan, according to Iranian officials and subsequently confirmed by President Trump. Pakistani Prime Minister Shehbaz Sharif credited Beijing with support for the agreement, which came together in the hours preceding the announcement.</p><p>The diplomatic intervention precedes a scheduled Trump visit to Beijing and occurs against a backdrop of continued Chinese commercial activity with Iran. Chinese companies are exporting material that could be used by Iran's military, according to the New York Times, creating a dual posture in which Beijing acts as both mediator and supplier.</p><p>China has insulated itself against near-term disruption in energy supplies despite reliance on imports transiting the Strait of Hormuz, according to Foreign Affairs. The strategic calculus reflects Beijing's ability to maintain commercial ties with Tehran while positioning itself as an indispensable diplomatic actor in regional conflicts.</p><p>The ceasefire diplomacy demonstrates China's expanding role in Middle Eastern security architecture at a moment when U.S. military resources remain concentrated in the region. Beijing's willingness to engage both Washington and Tehran on conflict de-escalation while sustaining economic links to Iran signals a hedging strategy that preserves influence across competing axes.</p><p>Trump's forthcoming Beijing visit will test whether the ceasefire brokerage translates into broader U.S.-China coordination on Iran or remains a tactical gesture. The dual-use export activity suggests Beijing intends to maintain strategic ambiguity rather than align definitively with Western pressure campaigns on Tehran.</p>",
+        "vertical": "Affairs",
+        "topic": "China-Iran diplomatic positioning",
+        "tier": "II",
+        "status_tag": "CONFIRMED",
+        "sources": [
+          {
+            "publisher": "NYT World",
+            "domain": "nytimes.com",
+            "url": "https://www.nytimes.com/2026/05/03/us/politics/trump-china-iran-war.html",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "bloomberg.com",
+            "domain": "bloomberg.com",
+            "url": "https://www.bloomberg.com/news/articles/2026-04-09/xi-helps-trump-on-iran-war-as-china-assists-with-ceasefire-bid",
+            "tier": "A",
+            "is_origin": false
+          },
+          {
+            "publisher": "foreignaffairs.com",
+            "domain": "foreignaffairs.com",
+            "url": "https://www.foreignaffairs.com/united-states/iran-war-win-china",
+            "tier": "C",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "NYT World",
+        "origin_url": "https://www.nytimes.com/2026/05/03/us/politics/trump-china-iran-war.html",
+        "score": 80,
+        "written_at": "2026-05-04T06:56:06+00:00",
+        "detected_at": "2026-05-04T06:12:24+00:00",
+        "verified_at": "2026-05-04T06:52:15+00:00",
+        "time_display": "16:56 AEST",
+        "sources_inline": "nytimes.com · bloomberg.com · foreignaffairs.com"
+      },
+      {
         "id": "b-1b9f3e6ddddd5cc6",
         "slug": "colombia-accepts-us-deportation-flights-averting-trump-tariff-threat-dddd5cc6",
         "headline": "Colombia accepts US deportation flights, averting Trump tariff threat",
@@ -293,91 +462,184 @@
         "sources_inline": "wsj.com · cnn.com · nbcnews.com"
       },
       {
-        "id": "b-c42aefabad4f9cf3",
-        "slug": "rwanda-backed-m23-rebels-seize-goma-and-bukavu-displacing-one-million--ad4f9cf3",
-        "headline": "Rwanda-backed M23 rebels seize Goma and Bukavu, displacing <em>one million</em> inside Congo's eastern cities",
-        "standfirst": "M23 forces entered Goma and Bukavu after Congolese government troops collapsed or fled with minimal resistance. UN officials estimate over one million displaced persons now concentrated in Goma. The dual-city seizure marks the deepest M23 penetration into Congolese urban centres since the group's resurgence.",
-        "body_html": "<p>Rwanda-backed M23 rebels entered Goma, the capital of North Kivu province and eastern Congo's largest city, on Sunday after overrunning Congolese government forces. Residents reported gunfire and shelling as the city fell. UN officials estimate more than one million internally displaced persons are now inside Goma, concentrated in what had been considered a relative safe haven.</p><p>M23 forces simultaneously took Bukavu, the second-largest city in eastern Congo and capital of South Kivu province. Governor Jean-Jacques Purusi confirmed rebels reached the city centre Sunday morning and seized the provincial administrative office. Government troops offered little resistance; many fled the advance according to multiple accounts.</p><p>The coordinated seizure of both cities represents the most significant territorial gain by M23 since the group re-emerged in 2021 after a seven-year dormancy. Goma, with a pre-conflict population exceeding two million, sits on the Rwandan border and controls key transport corridors into Uganda. Bukavu lies 100 kilometres south on Lake Kivu's western shore.</p><p>Congo's government and independent investigators have documented Rwandan military support for M23, including troop deployments and artillery. Rwanda denies direct involvement but acknowledges security concerns along its border. The collapse of Congolese forces in both cities suggests either strategic withdrawal or systemic command failure.</p><p>The concentration of over one million displaced persons in Goma creates acute humanitarian exposure. The city's infrastructure was already strained before the rebel advance. No international evacuation operations have been announced. Regional mediation efforts, led by Angola and Kenya, have produced no ceasefire.</p>",
+        "id": "b-c56e7798ba95a73f",
+        "slug": "taiwan-s-lai-cancels-africa-trip-after-three-states-revoke-overflight--ba95a73f",
+        "headline": "Taiwan's Lai cancels Africa trip after <em>three states revoke overflight rights</em>",
+        "standfirst": "President Lai Ching-te postponed a visit to Eswatini, Taiwan's sole African diplomatic partner, after Seychelles, Mauritius and Madagascar withdrew airspace permissions. Taipei attributes the coordinated refusals to Beijing pressure. This marks the first forced postponement of a Taiwanese presidential trip.",
+        "body_html": "<p>Taiwan President Lai Ching-te postponed a scheduled visit to Eswatini this week after three African nations simultaneously revoked permission for his aircraft to traverse their airspace. Presidential Office Secretary-General Pan Meng-an identified Seychelles, Mauritius and Madagascar as the states that withdrew overflight clearances, attributing the decisions to Chinese diplomatic pressure.</p><p>The trip, planned for departure on Wednesday, would have marked Lai's first visit to Eswatini since taking office. The southern African kingdom remains Taiwan's only formal diplomatic partner on the continent. Taipei's presidential office confirmed this is the first instance of a Taiwanese leader being compelled to delay an overseas visit at the last minute due to airspace denials.</p><p>The coordinated refusals represent a tactical escalation in Beijing's campaign to isolate Taiwan diplomatically. All three nations that revoked permissions maintain formal ties with the People's Republic of China under its One China policy, which precludes official relations with Taipei. The airspace denials force any alternative routing to add significant flight time or require additional overflight negotiations, complicating presidential travel logistics.</p><p>Taiwan has lost nine diplomatic partners since 2016, leaving it with formal recognition from 12 states globally. Eswatini, an absolute monarchy of 1.2 million, has resisted Chinese overtures to switch allegiance, though Beijing has offered infrastructure financing in exchange for severing Taipei ties. The aborted visit underscores the operational constraints Taiwan faces in maintaining even its remaining diplomatic relationships, as third-party states can be leveraged to obstruct basic travel without directly severing ties.</p><p>Lai's office has not announced a rescheduled date. The incident occurs as Taiwan enters its annual diplomatic vulnerability window ahead of the United Nations General Assembly in September, when Beijing historically intensifies efforts to peel away remaining partners.</p>",
         "vertical": "Affairs",
-        "topic": "M23 seizure of eastern Congo",
-        "tier": "I",
-        "status_tag": "CONFIRMED",
-        "sources": [
-          {
-            "publisher": "WSJ World",
-            "domain": "wsj.com",
-            "url": "https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8",
-            "tier": "B",
-            "is_origin": true
-          },
-          {
-            "publisher": "npr.org",
-            "domain": "npr.org",
-            "url": "https://www.npr.org/2025/01/26/nx-s1-5275358/rwanda-backed-rebels-claim-to-have-seized-key-city-in-congo",
-            "tier": "B",
-            "is_origin": false
-          },
-          {
-            "publisher": "nbcnews.com",
-            "domain": "nbcnews.com",
-            "url": "https://www.nbcnews.com/news/world/rwanda-drc-congo-bukavu-kivu-africa-m23-hutus-tutsis-rcna192381",
-            "tier": "B",
-            "is_origin": false
-          },
-          {
-            "publisher": "aljazeera.com",
-            "domain": "aljazeera.com",
-            "url": "https://www.aljazeera.com/news/2025/2/16/dr-congos-m23-rebels-enter-centre-of-strategic-city-bukavu-report",
-            "tier": "B",
-            "is_origin": false
-          }
-        ],
-        "origin_publisher": "WSJ World",
-        "origin_url": "https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8",
-        "score": 76,
-        "written_at": "2026-05-04T06:15:56+00:00",
-        "detected_at": "2026-05-04T06:02:45+00:00",
-        "verified_at": "2026-05-04T06:13:16+00:00",
-        "time_display": "16:15 AEST",
-        "sources_inline": "wsj.com · npr.org · nbcnews.com · aljazeera.com"
-      },
-      {
-        "id": "b-46bb18a849504895",
-        "slug": "israel-reports-91-hostages-from-october-7-attack-remain-in-gaza-34-con-49504895",
-        "headline": "Israel reports 91 hostages from October 7 attack remain in Gaza, 34 confirmed dead",
-        "standfirst": "Fifteen months after Hamas's cross-border raid, Israel says 91 of the more than 200 abducted civilians and soldiers remain in captivity. At least 34 are confirmed dead, their bodies still held in Gaza.",
-        "body_html": "<p>Israel confirmed that 91 hostages seized during Hamas's October 7 attack remain in Gaza, including the bodies of at least 34 individuals now confirmed dead. The figures represent the current status of an abduction operation that initially saw more than 200 Israeli civilians and soldiers taken across the border into the Gaza Strip.</p><p>The October 7 raid marked the largest mass abduction of Israeli nationals in the state's history. Palestinian militants conducted coordinated attacks across southern Israel before withdrawing with hostages into Gaza. Israel has not disclosed how many hostages have been released, died in captivity, or been recovered through military operations in the fifteen months since.</p><p>The distinction between living hostages and recovered remains carries operational significance. Bodies confirmed in Gaza but not repatriated complicate ceasefire negotiations, as Hamas has historically used remains as bargaining leverage in prisoner exchanges. Israel's public confirmation of the 34 deaths suggests intelligence derived from signals intercepts, informant networks, or direct observation during ground operations in Gaza.</p><p>The hostage issue remains central to Israel's stated war objectives in Gaza. Domestic pressure from hostage families has periodically influenced cabinet decisions on ceasefire terms and military strategy. The updated figures provide the first official accounting in recent months, though Israel has not clarified whether the count includes dual nationals or foreign workers abducted alongside Israeli citizens.</p>",
-        "vertical": "Affairs",
-        "topic": "Israel-Hamas hostage crisis",
+        "topic": "Taiwan diplomatic isolation",
         "tier": "II",
         "status_tag": "CONFIRMED",
         "sources": [
           {
-            "publisher": "WSJ World",
-            "domain": "wsj.com",
-            "url": "https://www.wsj.com/articles/hamas-hostages-israel-gaza-41432124",
+            "publisher": "SCMP",
+            "domain": "scmp.com",
+            "url": "https://www.scmp.com/news/china/politics/article/3350917/taiwanese-leader-lai-postpones-africa-trip-after-3-nations-revoke-overflight-permission?utm_source=rss_feed",
             "tier": "B",
             "is_origin": true
           },
           {
-            "publisher": "theaustralian.com.au",
-            "domain": "theaustralian.com.au",
-            "url": "https://www.theaustralian.com.au/business/the-wall-street-journal/hamas-took-more-than-200-hostages-from-israel-heres-what-to-know/news-story/921a94391b4954ddbe61e274088b41bc",
+            "publisher": "bbc.co.uk",
+            "domain": "bbc.co.uk",
+            "url": "https://www.bbc.co.uk/news/articles/crl16p72x7xo",
+            "tier": "B",
+            "is_origin": false
+          },
+          {
+            "publisher": "apnews.com",
+            "domain": "apnews.com",
+            "url": "https://apnews.com/article/taiwan-eswatini-visit-cancel-lai-china-pressure-766186171449ceb7e62b1356e503986d",
+            "tier": "A",
+            "is_origin": false
+          },
+          {
+            "publisher": "channelnewsasia.com",
+            "domain": "channelnewsasia.com",
+            "url": "https://www.channelnewsasia.com/east-asia/taiwan-cancels-eswatini-blames-china-lai-ching-te-overfly-revoked-6070791",
             "tier": "B",
             "is_origin": false
           }
         ],
-        "origin_publisher": "WSJ World",
-        "origin_url": "https://www.wsj.com/articles/hamas-hostages-israel-gaza-41432124",
-        "score": 75,
-        "written_at": "2026-05-04T06:16:10+00:00",
-        "detected_at": "2026-05-04T06:09:52+00:00",
-        "verified_at": "2026-05-04T06:14:02+00:00",
-        "time_display": "16:16 AEST",
-        "sources_inline": "wsj.com · theaustralian.com.au"
+        "origin_publisher": "SCMP",
+        "origin_url": "https://www.scmp.com/news/china/politics/article/3350917/taiwanese-leader-lai-postpones-africa-trip-after-3-nations-revoke-overflight-permission?utm_source=rss_feed",
+        "score": 78,
+        "written_at": "2026-05-04T06:56:39+00:00",
+        "detected_at": "2026-05-04T06:26:28+00:00",
+        "verified_at": "2026-05-04T06:53:32+00:00",
+        "time_display": "16:56 AEST",
+        "sources_inline": "scmp.com · bbc.co.uk · apnews.com · channelnewsasia.com"
+      },
+      {
+        "id": "b-a90b441b3881873c",
+        "slug": "two-us-soldiers-missing-in-morocco-during-african-lion-exercises-3881873c",
+        "headline": "Two US soldiers missing in Morocco during <em>African Lion</em> exercises",
+        "standfirst": "US Africa Command has launched a search and rescue operation for two service members who disappeared near Tan Tan in south-western Morocco. The personnel were participating in the annual multinational African Lion training exercise.",
+        "body_html": "<p>Two US Army soldiers are missing in south-western Morocco following participation in the African Lion multinational military exercise, according to US Africa Command. The command confirmed Sunday that a search and rescue operation is underway near the city of Tan Tan.</p><p>African Lion is an annual US-led exercise involving Moroccan forces and other allied militaries. The exercise focuses on interoperability training across North Africa. US Africa Command did not specify when the service members were last accounted for or the circumstances of their disappearance.</p><p>Morocco and participating allied nations have joined the search effort, according to the command's statement. No details have been released regarding the soldiers' unit affiliation, the nature of their training activity at the time, or whether the disappearance occurred during active exercise operations.</p><p>The incident represents the first reported personnel loss during African Lion exercises, which have operated in Morocco since 2002. Tan Tan is located in Morocco's southern coastal region, approximately 25 kilometres from the Atlantic coast. The area's terrain includes desert and semi-arid zones that present navigation challenges.</p><p>US Africa Command has not indicated whether the search involves only ground operations or includes air assets. The command's area of responsibility covers 53 African countries and maintains rotational presence rather than permanent bases in most locations.</p>",
+        "vertical": "Affairs",
+        "topic": "US military operations Africa",
+        "tier": "II",
+        "status_tag": "DEVELOPING",
+        "sources": [
+          {
+            "publisher": "Guardian World",
+            "domain": "theguardian.com",
+            "url": "https://www.theguardian.com/us-news/2026/may/03/service-members-missing-military-exercises-morocco",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "nbcnews.com",
+            "domain": "nbcnews.com",
+            "url": "https://www.nbcnews.com/world/africa/us-service-members-missing-military-exercises-morocco-rcna343310",
+            "tier": "B",
+            "is_origin": false
+          },
+          {
+            "publisher": "wsj.com",
+            "domain": "wsj.com",
+            "url": "https://www.wsj.com/world/africa/two-u-s-soldiers-reported-missing-in-morocco-914f8087",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "Guardian World",
+        "origin_url": "https://www.theguardian.com/us-news/2026/may/03/service-members-missing-military-exercises-morocco",
+        "score": 78,
+        "written_at": "2026-05-04T06:56:54+00:00",
+        "detected_at": "2026-05-04T06:17:29+00:00",
+        "verified_at": "2026-05-04T06:53:40+00:00",
+        "time_display": "16:56 AEST",
+        "sources_inline": "theguardian.com · nbcnews.com · wsj.com"
+      }
+    ],
+    "Culture": [
+      {
+        "id": "b-b2b7051b883a9781",
+        "slug": "netflix-commits-to-seven-week-theatrical-window-for-greta-gerwig-s-nar-883a9781",
+        "headline": "Netflix commits to <em>seven-week theatrical window</em> for Greta Gerwig's Narnia film",
+        "standfirst": "The streaming platform will release The Magician's Nephew exclusively in cinemas worldwide from 12 February 2027, marking its first wide theatrical distribution with a 45-day minimum window. The shift reverses a decade-long policy of streaming-first releases.",
+        "body_html": "<p>Netflix announced on 1 May that it will release Greta Gerwig's <em>Narnia: The Magician's Nephew</em> in wide theatrical distribution beginning 12 February 2027, with an exclusive cinema window exceeding 45 days before the film appears on its streaming service. The Wall Street Journal reports the theatrical exclusivity will run seven weeks.</p><p>The decision breaks with Netflix's established distribution model, under which films debut on the platform simultaneously with limited theatrical runs or bypass cinemas entirely. The company has never previously committed to the type of multi-week exclusive theatrical release standard among traditional studios, according to The Australian.</p><p>Gerwig directed <em>Barbie</em>, which grossed over $1.4 billion globally in 2023 for Warner Bros. The Narnia project adapts C.S. Lewis's Chronicles of Narnia series, specifically <em>The Magician's Nephew</em>, the chronological origin story in the seven-book canon.</p><p>The move addresses longstanding friction between Netflix and cinema operators, who have resisted carrying Netflix films without extended exclusivity periods. Major filmmakers, including Steven Spielberg and Christopher Nolan, have publicly criticised the platform's streaming-first approach as incompatible with theatrical filmmaking economics.</p><p>Netflix has not disclosed the production budget for the Narnia film or whether the theatrical strategy will extend to other titles in development. The company's previous Narnia announcement did not specify a distribution model, making the theatrical commitment a recent strategic shift.</p>",
+        "vertical": "Culture",
+        "topic": "Streaming distribution strategy",
+        "tier": "II",
+        "status_tag": "CONFIRMED",
+        "sources": [
+          {
+            "publisher": "NYT Business",
+            "domain": "nytimes.com",
+            "url": "https://www.nytimes.com/2026/05/01/business/media/netflix-narnia-movie-theaters-release.html",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "straitstimes.com",
+            "domain": "straitstimes.com",
+            "url": "https://www.straitstimes.com/life/entertainment/netflix-to-give-greta-gerwigs-narnia-wide-theatrical-release-marking-a-first",
+            "tier": "B",
+            "is_origin": false
+          },
+          {
+            "publisher": "wsj.com",
+            "domain": "wsj.com",
+            "url": "https://www.wsj.com/business/media/netflix-in-a-first-plans-full-theatrical-release-for-narnia-e1ee625b",
+            "tier": "B",
+            "is_origin": false
+          },
+          {
+            "publisher": "theaustralian.com.au",
+            "domain": "theaustralian.com.au",
+            "url": "https://www.theaustralian.com.au/business/media/netflix-in-a-first-plans-full-theatrical-release-for-narnia/news-story/176b8554c831885824aa9d9b3bc6c569",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "NYT Business",
+        "origin_url": "https://www.nytimes.com/2026/05/01/business/media/netflix-narnia-movie-theaters-release.html",
+        "score": 77,
+        "written_at": "2026-05-04T06:57:37+00:00",
+        "detected_at": "2026-05-04T06:13:48+00:00",
+        "verified_at": "2026-05-04T06:54:41+00:00",
+        "time_display": "16:57 AEST",
+        "sources_inline": "nytimes.com · straitstimes.com · wsj.com · theaustralian.com.au"
       }
     ],
     "Business": [
+      {
+        "id": "b-cb45d10b4b65abb4",
+        "slug": "trump-administration-eases-federal-cannabis-rules-unlocking-tax-relief-4b65abb4",
+        "headline": "Trump administration eases federal cannabis rules, <em>unlocking tax relief</em> for industry",
+        "standfirst": "The White House has relaxed federal restrictions on medical marijuana, granting significant tax breaks to cannabis companies. The shift follows a year-long industry lobbying effort and marks a departure from traditional Republican policy on controlled substances.",
+        "body_html": "<p>The Trump administration has moved to ease federal regulations governing medical marijuana, a decision that delivers substantial tax advantages to cannabis operators and positions the sector for expanded investment. The regulatory shift represents the culmination of more than a year of sustained advocacy by industry groups seeking presidential intervention on a matter the Republican Party has historically resisted.</p><p>The new framework reduces federal compliance burdens on medical cannabis businesses, though the administration has not disclosed the precise scope of the regulatory changes. The tax relief component is expected to materially improve operating margins for companies that have faced punitive federal tax treatment under existing statutes, even in states where cannabis commerce is legal.</p><p>According to Politico, the cannabis industry mounted a deliberate campaign to secure White House backing, leveraging both economic arguments and shifting public sentiment on marijuana policy. The sector has long contended that federal-state regulatory misalignment imposes untenable costs and constrains access to banking services and capital markets.</p><p>The policy reversal carries implications beyond the cannabis vertical. It signals potential executive willingness to override agency orthodoxy in sectors where state-level legalisation has outpaced federal frameworks. Investment analysts will watch whether the tax changes trigger a repricing of publicly traded cannabis equities or accelerate consolidation among operators previously constrained by capital scarcity.</p><p>The administration has not indicated whether further deregulation—such as rescheduling cannabis under the Controlled Substances Act—is under consideration. Industry participants are likely to interpret the tax relief as a floor rather than a ceiling for future policy accommodation.</p>",
+        "vertical": "Business",
+        "topic": "U.S. cannabis deregulation",
+        "tier": "II",
+        "status_tag": "CONFIRMED",
+        "sources": [
+          {
+            "publisher": "NYT Business",
+            "domain": "nytimes.com",
+            "url": "https://www.nytimes.com/2026/05/02/business/dealbook/cannabis-industry-trump.html",
+            "tier": "B",
+            "is_origin": true
+          },
+          {
+            "publisher": "politico.com",
+            "domain": "politico.com",
+            "url": "https://www.politico.com/news/2025/12/18/how-the-cannabis-industry-leveraged-a-big-win-from-trump-00699174",
+            "tier": "B",
+            "is_origin": false
+          }
+        ],
+        "origin_publisher": "NYT Business",
+        "origin_url": "https://www.nytimes.com/2026/05/02/business/dealbook/cannabis-industry-trump.html",
+        "score": 79,
+        "written_at": "2026-05-04T06:56:24+00:00",
+        "detected_at": "2026-05-04T06:13:27+00:00",
+        "verified_at": "2026-05-04T06:53:16+00:00",
+        "time_display": "16:56 AEST",
+        "sources_inline": "nytimes.com · politico.com"
+      },
       {
         "id": "b-e76218bd0fbac60e",
         "slug": "vanke-reports-11-8bn-loss-as-china-s-property-crisis-spreads-to-state--0fbac60e",
@@ -430,6 +692,510 @@
     ]
   },
   "all": [
+    {
+      "id": "b-45b1f44636372e5f",
+      "slug": "trump-expands-cuba-sanctions-to-energy-defence-and-mining-sectors-36372e5f",
+      "headline": "Trump expands Cuba sanctions to <em>energy, defence, and mining sectors</em>",
+      "standfirst": "An executive order signed Friday targets individuals operating across broad swathes of the Cuban economy. Havana called the measures collective punishment as thousands marched outside the US embassy on 1 May.",
+      "body_html": "<p>President Donald Trump signed an executive order Friday imposing sanctions on individuals involved in Cuba's energy, defence, and mining sectors, marking a significant expansion of US economic pressure on the island. The move follows Trump's earlier ousting of Venezuelan leader Nicolás Maduro and signals a broader strategy to constrain Havana's economic base.</p><p>Cuba's Foreign Minister Bruno Rodriguez rejected the sanctions as \"unilateral coercive measures\" designed to impose \"collective punishment on the Cuban people,\" according to Al Jazeera. The Cuban government's characterisation frames the measures as targeting the population rather than specific state actors, a narrative Havana has employed in response to previous US restrictions.</p><p>The timing coincided with a large 1 May procession in Havana, where demonstrators gathered outside the American embassy pledging to \"defend the homeland.\" The annual workers' march took on heightened political significance this year, serving as a public display of resistance to the new sanctions regime.</p><p>The executive order's sectoral approach differs from previous targeted sanctions by casting a wider net across Cuba's economic infrastructure. Energy and mining represent critical revenue streams for the Cuban state, while defence sector restrictions aim to limit the island's military-industrial capacity. The breadth of the sanctions suggests an intent to degrade Cuba's economic resilience rather than isolate specific officials or entities.</p><p>The measures arrive as Cuba faces ongoing economic strain, though the sources do not specify current GDP figures or energy production levels. The sanctions' practical impact will depend on enforcement mechanisms and the extent to which third-party actors comply with US restrictions on Cuban commerce.</p>",
+      "vertical": "Affairs",
+      "topic": "US-Cuba sanctions policy",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "Guardian World",
+          "domain": "theguardian.com",
+          "url": "https://www.theguardian.com/world/2026/may/02/cuba-trump-new-sanctions-economy",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "hindustantimes.com",
+          "domain": "hindustantimes.com",
+          "url": "https://www.hindustantimes.com/world-news/us-news/us-sanctions-are-collective-punishment-says-cuba-during-may-1-marches-101777666760114.html",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "aljazeera.com",
+          "domain": "aljazeera.com",
+          "url": "https://www.aljazeera.com/economy/2026/5/2/havana-slams-new-trump-sanctions-as-collective-punishment-of-cuban-people",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "Guardian World",
+      "origin_url": "https://www.theguardian.com/world/2026/may/02/cuba-trump-new-sanctions-economy",
+      "score": 76,
+      "written_at": "2026-05-04T06:58:05+00:00",
+      "detected_at": "2026-05-04T06:17:54+00:00",
+      "verified_at": "2026-05-04T06:55:02+00:00",
+      "time_display": "16:58 AEST",
+      "sources_inline": "theguardian.com · hindustantimes.com · aljazeera.com"
+    },
+    {
+      "id": "b-fc90cb5a73630292",
+      "slug": "merz-commits-to-trump-partnership-despite-public-friction-over-iran-co-73630292",
+      "headline": "Merz commits to Trump partnership despite <em>public friction</em> over Iran conflict",
+      "standfirst": "German Chancellor Friedrich Merz told ARD he will not abandon the transatlantic relationship with US President Donald Trump following a dispute over the Iran war. The statement comes amid broader European anxiety over Washington's Middle East policy and its economic spillover.",
+      "body_html": "<p>German Chancellor Friedrich Merz reaffirmed his commitment to working with US President Donald Trump on May 3, despite a public disagreement between the two leaders over the ongoing conflict in Iran. Speaking to public broadcaster ARD, Merz said he would not give up on the transatlantic relationship, signalling Berlin's intent to maintain strategic alignment with Washington even as policy differences emerge.</p><p>The spat centres on the Iran war, though neither leader has detailed the specific points of contention in public remarks. Merz downplayed what he characterised as drawbacks in US military posture and personal criticism from Trump, according to the Guardian. The chancellor had previously expressed concern about the economic impact of the conflict, according to the Hindu, suggesting German industry faces exposure to energy and supply-chain disruption stemming from Middle East instability.</p><p>The exchange reflects a broader recalibration within the transatlantic alliance as European capitals navigate Trump's return to office. Merz, who leads a centre-right coalition, has sought to position Germany as a reliable US partner on defence spending and NATO burden-sharing, making public friction over Iran a potential complication for that strategy. The chancellor's emphasis on continuity suggests Berlin views the relationship as too consequential to let a single policy disagreement derail cooperation on Ukraine, China, and European security architecture.</p><p>Merz's remarks precede a scheduled ARD broadcast and come as European leaders prepare for a NATO summit where Iran, Ukraine, and defence budgets are expected to dominate. The German government has not clarified whether it supports US military operations in Iran or has offered alternative diplomatic proposals.</p>",
+      "vertical": "Affairs",
+      "topic": "US-Germany Iran policy friction",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "Guardian World",
+          "domain": "theguardian.com",
+          "url": "https://www.theguardian.com/world/2026/may/03/merz-not-giving-up-on-working-with-trump-despite-iran-war-spat",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "lemonde.fr",
+          "domain": "lemonde.fr",
+          "url": "https://www.lemonde.fr/en/international/article/2026/05/03/germany-s-merz-says-not-giving-up-on-working-with-donald-trump_6753088_4.html",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "straitstimes.com",
+          "domain": "straitstimes.com",
+          "url": "https://www.straitstimes.com/world/europe/german-chancellor-downplays-row-with-trump-after-troop-drawdown-announced",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "thehindu.com",
+          "domain": "thehindu.com",
+          "url": "https://www.thehindu.com/news/international/merz-says-relations-with-trump-are-good-despite-spat-over-iran/article70921626.ece",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "Guardian World",
+      "origin_url": "https://www.theguardian.com/world/2026/may/03/merz-not-giving-up-on-working-with-trump-despite-iran-war-spat",
+      "score": 76,
+      "written_at": "2026-05-04T06:57:51+00:00",
+      "detected_at": "2026-05-04T06:18:45+00:00",
+      "verified_at": "2026-05-04T06:54:53+00:00",
+      "time_display": "16:57 AEST",
+      "sources_inline": "theguardian.com · lemonde.fr · straitstimes.com · thehindu.com"
+    },
+    {
+      "id": "b-b2b7051b883a9781",
+      "slug": "netflix-commits-to-seven-week-theatrical-window-for-greta-gerwig-s-nar-883a9781",
+      "headline": "Netflix commits to <em>seven-week theatrical window</em> for Greta Gerwig's Narnia film",
+      "standfirst": "The streaming platform will release The Magician's Nephew exclusively in cinemas worldwide from 12 February 2027, marking its first wide theatrical distribution with a 45-day minimum window. The shift reverses a decade-long policy of streaming-first releases.",
+      "body_html": "<p>Netflix announced on 1 May that it will release Greta Gerwig's <em>Narnia: The Magician's Nephew</em> in wide theatrical distribution beginning 12 February 2027, with an exclusive cinema window exceeding 45 days before the film appears on its streaming service. The Wall Street Journal reports the theatrical exclusivity will run seven weeks.</p><p>The decision breaks with Netflix's established distribution model, under which films debut on the platform simultaneously with limited theatrical runs or bypass cinemas entirely. The company has never previously committed to the type of multi-week exclusive theatrical release standard among traditional studios, according to The Australian.</p><p>Gerwig directed <em>Barbie</em>, which grossed over $1.4 billion globally in 2023 for Warner Bros. The Narnia project adapts C.S. Lewis's Chronicles of Narnia series, specifically <em>The Magician's Nephew</em>, the chronological origin story in the seven-book canon.</p><p>The move addresses longstanding friction between Netflix and cinema operators, who have resisted carrying Netflix films without extended exclusivity periods. Major filmmakers, including Steven Spielberg and Christopher Nolan, have publicly criticised the platform's streaming-first approach as incompatible with theatrical filmmaking economics.</p><p>Netflix has not disclosed the production budget for the Narnia film or whether the theatrical strategy will extend to other titles in development. The company's previous Narnia announcement did not specify a distribution model, making the theatrical commitment a recent strategic shift.</p>",
+      "vertical": "Culture",
+      "topic": "Streaming distribution strategy",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "NYT Business",
+          "domain": "nytimes.com",
+          "url": "https://www.nytimes.com/2026/05/01/business/media/netflix-narnia-movie-theaters-release.html",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "straitstimes.com",
+          "domain": "straitstimes.com",
+          "url": "https://www.straitstimes.com/life/entertainment/netflix-to-give-greta-gerwigs-narnia-wide-theatrical-release-marking-a-first",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "wsj.com",
+          "domain": "wsj.com",
+          "url": "https://www.wsj.com/business/media/netflix-in-a-first-plans-full-theatrical-release-for-narnia-e1ee625b",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "theaustralian.com.au",
+          "domain": "theaustralian.com.au",
+          "url": "https://www.theaustralian.com.au/business/media/netflix-in-a-first-plans-full-theatrical-release-for-narnia/news-story/176b8554c831885824aa9d9b3bc6c569",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "NYT Business",
+      "origin_url": "https://www.nytimes.com/2026/05/01/business/media/netflix-narnia-movie-theaters-release.html",
+      "score": 77,
+      "written_at": "2026-05-04T06:57:37+00:00",
+      "detected_at": "2026-05-04T06:13:48+00:00",
+      "verified_at": "2026-05-04T06:54:41+00:00",
+      "time_display": "16:57 AEST",
+      "sources_inline": "nytimes.com · straitstimes.com · wsj.com · theaustralian.com.au"
+    },
+    {
+      "id": "b-67492cb6c0ffcd43",
+      "slug": "yuan-becomes-primary-settlement-currency-for-sanctioned-iran-and-russi-c0ffcd43",
+      "headline": "Yuan becomes <em>primary settlement currency</em> for sanctioned Iran and Russia",
+      "standfirst": "China's currency now dominates trade flows with Moscow and Tehran as Western financial restrictions eliminate dollar and euro alternatives. The shift marks a structural change in how sanctioned economies access global commerce, though yuan adoption remains constrained outside these corridors.",
+      "body_html": "<p>The yuan has emerged as the dominant settlement currency for Iran and Russia, displacing the dollar and euro in bilateral trade with China as Western sanctions close off access to traditional financial channels. Both Moscow and Tehran now rely on renminbi-denominated transactions for the majority of their Chinese trade, which constitutes their largest commercial relationship.</p><p>China has long facilitated yuan-based trade with heavily sanctioned states including Russia, Iran and North Korea, for whom Chinese commerce provides an economic lifeline. What has changed is the scale and necessity: sanctions have eliminated practical alternatives, forcing these economies to accept yuan settlement despite structural limitations in the currency's convertibility and offshore liquidity.</p><p>The yuan faces persistent constraints on broader international adoption. Capital controls restrict free convertibility, offshore yuan markets remain shallow compared to dollar equivalents, and Beijing maintains tight oversight of cross-border flows. These features make the currency unattractive for most global trade, even as they serve China's strategic interest in maintaining financial system stability.</p><p>For sanctioned economies, however, these limitations matter less than access itself. Russia and Iran have restructured their trade infrastructure around yuan clearing, building reserves in the currency and negotiating pricing mechanisms that account for conversion risk. The arrangement gives Beijing significant leverage over both economies' external sectors while insulating Chinese firms from secondary sanctions risk associated with dollar transactions.</p><p>The development represents a bifurcation in global currency use rather than yuan internationalisation. Outside sanction-driven corridors, dollar dominance in trade finance and reserve holdings remains intact, and yuan adoption by non-sanctioned economies has not accelerated meaningfully.</p>",
+      "vertical": "Affairs",
+      "topic": "Yuan sanctions trade",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "Nikkei Asia",
+          "domain": "asia.nikkei.com",
+          "url": "https://asia.nikkei.com/business/markets/currencies/yuan-payments-soar-as-currency-of-last-resort-for-iran-russia",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "politico.com",
+          "domain": "politico.com",
+          "url": "https://www.politico.com/newsletters/forecast/2026/04/20/chinas-iran-war-currency-windfall-00881825",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "Nikkei Asia",
+      "origin_url": "https://asia.nikkei.com/business/markets/currencies/yuan-payments-soar-as-currency-of-last-resort-for-iran-russia",
+      "score": 77,
+      "written_at": "2026-05-04T06:57:20+00:00",
+      "detected_at": "2026-05-04T06:22:03+00:00",
+      "verified_at": "2026-05-04T06:54:19+00:00",
+      "time_display": "16:57 AEST",
+      "sources_inline": "asia.nikkei.com · politico.com"
+    },
+    {
+      "id": "b-4f1cafdc2519c39f",
+      "slug": "taiwan-president-reaches-eswatini-after-china-blocks-earlier-transit-r-2519c39f",
+      "headline": "Taiwan president reaches Eswatini after China blocks earlier transit route",
+      "standfirst": "Lai Ching-te arrived in Eswatini on Saturday, days after accusing Beijing of forcing cancellation of a planned trip. China called the visit a \"stowaway-style escape farce\". The route Lai used to reach the southern African kingdom remains undisclosed.",
+      "body_html": "<p>Taiwan President Lai Ching-te arrived in Eswatini on Saturday, completing a visit he said China had previously blocked. Lai blamed Beijing for forcing the cancellation of an earlier planned trip, though he did not specify which route or transit points were denied.</p><p>The method by which Lai reached Eswatini — Taiwan's sole remaining diplomatic partner in Africa — has not been disclosed by Taiwanese authorities. China's foreign ministry described the visit as a \"stowaway-style escape farce\", language that suggests Beijing views the undisclosed routing as an attempt to circumvent its diplomatic pressure.</p><p>Eswatini is one of 12 states that maintain formal diplomatic ties with Taipei rather than Beijing. China claims Taiwan as its territory and has systematically reduced the island's diplomatic recognition over the past decade, leaving Taiwan with partners concentrated in the Pacific, Latin America, and the Vatican.</p><p>The incident underscores Beijing's expanding capacity to constrain Taiwan's international mobility. Lai's need to obscure his travel route indicates that standard transit arrangements through third countries — typically the United States or regional hubs — were either unavailable or deemed too risky. The visit's completion suggests Taipei retains alternative channels, though at higher operational cost and reduced transparency.</p>",
+      "vertical": "Affairs",
+      "topic": "Taiwan diplomatic access",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "BBC World",
+          "domain": "bbc.com",
+          "url": "https://www.bbc.com/news/articles/c809ln029ldo?at_medium=RSS&at_campaign=rss",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "asia.nikkei.com",
+          "domain": "asia.nikkei.com",
+          "url": "https://asia.nikkei.com/politics/international-relations/taiwan-president-arrives-in-eswatini-after-cancellation-of-prior-trip",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "BBC World",
+      "origin_url": "https://www.bbc.com/news/articles/c809ln029ldo?at_medium=RSS&at_campaign=rss",
+      "score": 78,
+      "written_at": "2026-05-04T06:57:06+00:00",
+      "detected_at": "2026-05-04T06:15:39+00:00",
+      "verified_at": "2026-05-04T06:53:48+00:00",
+      "time_display": "16:57 AEST",
+      "sources_inline": "bbc.com · asia.nikkei.com"
+    },
+    {
+      "id": "b-a90b441b3881873c",
+      "slug": "two-us-soldiers-missing-in-morocco-during-african-lion-exercises-3881873c",
+      "headline": "Two US soldiers missing in Morocco during <em>African Lion</em> exercises",
+      "standfirst": "US Africa Command has launched a search and rescue operation for two service members who disappeared near Tan Tan in south-western Morocco. The personnel were participating in the annual multinational African Lion training exercise.",
+      "body_html": "<p>Two US Army soldiers are missing in south-western Morocco following participation in the African Lion multinational military exercise, according to US Africa Command. The command confirmed Sunday that a search and rescue operation is underway near the city of Tan Tan.</p><p>African Lion is an annual US-led exercise involving Moroccan forces and other allied militaries. The exercise focuses on interoperability training across North Africa. US Africa Command did not specify when the service members were last accounted for or the circumstances of their disappearance.</p><p>Morocco and participating allied nations have joined the search effort, according to the command's statement. No details have been released regarding the soldiers' unit affiliation, the nature of their training activity at the time, or whether the disappearance occurred during active exercise operations.</p><p>The incident represents the first reported personnel loss during African Lion exercises, which have operated in Morocco since 2002. Tan Tan is located in Morocco's southern coastal region, approximately 25 kilometres from the Atlantic coast. The area's terrain includes desert and semi-arid zones that present navigation challenges.</p><p>US Africa Command has not indicated whether the search involves only ground operations or includes air assets. The command's area of responsibility covers 53 African countries and maintains rotational presence rather than permanent bases in most locations.</p>",
+      "vertical": "Affairs",
+      "topic": "US military operations Africa",
+      "tier": "II",
+      "status_tag": "DEVELOPING",
+      "sources": [
+        {
+          "publisher": "Guardian World",
+          "domain": "theguardian.com",
+          "url": "https://www.theguardian.com/us-news/2026/may/03/service-members-missing-military-exercises-morocco",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "nbcnews.com",
+          "domain": "nbcnews.com",
+          "url": "https://www.nbcnews.com/world/africa/us-service-members-missing-military-exercises-morocco-rcna343310",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "wsj.com",
+          "domain": "wsj.com",
+          "url": "https://www.wsj.com/world/africa/two-u-s-soldiers-reported-missing-in-morocco-914f8087",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "Guardian World",
+      "origin_url": "https://www.theguardian.com/us-news/2026/may/03/service-members-missing-military-exercises-morocco",
+      "score": 78,
+      "written_at": "2026-05-04T06:56:54+00:00",
+      "detected_at": "2026-05-04T06:17:29+00:00",
+      "verified_at": "2026-05-04T06:53:40+00:00",
+      "time_display": "16:56 AEST",
+      "sources_inline": "theguardian.com · nbcnews.com · wsj.com"
+    },
+    {
+      "id": "b-c56e7798ba95a73f",
+      "slug": "taiwan-s-lai-cancels-africa-trip-after-three-states-revoke-overflight--ba95a73f",
+      "headline": "Taiwan's Lai cancels Africa trip after <em>three states revoke overflight rights</em>",
+      "standfirst": "President Lai Ching-te postponed a visit to Eswatini, Taiwan's sole African diplomatic partner, after Seychelles, Mauritius and Madagascar withdrew airspace permissions. Taipei attributes the coordinated refusals to Beijing pressure. This marks the first forced postponement of a Taiwanese presidential trip.",
+      "body_html": "<p>Taiwan President Lai Ching-te postponed a scheduled visit to Eswatini this week after three African nations simultaneously revoked permission for his aircraft to traverse their airspace. Presidential Office Secretary-General Pan Meng-an identified Seychelles, Mauritius and Madagascar as the states that withdrew overflight clearances, attributing the decisions to Chinese diplomatic pressure.</p><p>The trip, planned for departure on Wednesday, would have marked Lai's first visit to Eswatini since taking office. The southern African kingdom remains Taiwan's only formal diplomatic partner on the continent. Taipei's presidential office confirmed this is the first instance of a Taiwanese leader being compelled to delay an overseas visit at the last minute due to airspace denials.</p><p>The coordinated refusals represent a tactical escalation in Beijing's campaign to isolate Taiwan diplomatically. All three nations that revoked permissions maintain formal ties with the People's Republic of China under its One China policy, which precludes official relations with Taipei. The airspace denials force any alternative routing to add significant flight time or require additional overflight negotiations, complicating presidential travel logistics.</p><p>Taiwan has lost nine diplomatic partners since 2016, leaving it with formal recognition from 12 states globally. Eswatini, an absolute monarchy of 1.2 million, has resisted Chinese overtures to switch allegiance, though Beijing has offered infrastructure financing in exchange for severing Taipei ties. The aborted visit underscores the operational constraints Taiwan faces in maintaining even its remaining diplomatic relationships, as third-party states can be leveraged to obstruct basic travel without directly severing ties.</p><p>Lai's office has not announced a rescheduled date. The incident occurs as Taiwan enters its annual diplomatic vulnerability window ahead of the United Nations General Assembly in September, when Beijing historically intensifies efforts to peel away remaining partners.</p>",
+      "vertical": "Affairs",
+      "topic": "Taiwan diplomatic isolation",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "SCMP",
+          "domain": "scmp.com",
+          "url": "https://www.scmp.com/news/china/politics/article/3350917/taiwanese-leader-lai-postpones-africa-trip-after-3-nations-revoke-overflight-permission?utm_source=rss_feed",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "bbc.co.uk",
+          "domain": "bbc.co.uk",
+          "url": "https://www.bbc.co.uk/news/articles/crl16p72x7xo",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "apnews.com",
+          "domain": "apnews.com",
+          "url": "https://apnews.com/article/taiwan-eswatini-visit-cancel-lai-china-pressure-766186171449ceb7e62b1356e503986d",
+          "tier": "A",
+          "is_origin": false
+        },
+        {
+          "publisher": "channelnewsasia.com",
+          "domain": "channelnewsasia.com",
+          "url": "https://www.channelnewsasia.com/east-asia/taiwan-cancels-eswatini-blames-china-lai-ching-te-overfly-revoked-6070791",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "SCMP",
+      "origin_url": "https://www.scmp.com/news/china/politics/article/3350917/taiwanese-leader-lai-postpones-africa-trip-after-3-nations-revoke-overflight-permission?utm_source=rss_feed",
+      "score": 78,
+      "written_at": "2026-05-04T06:56:39+00:00",
+      "detected_at": "2026-05-04T06:26:28+00:00",
+      "verified_at": "2026-05-04T06:53:32+00:00",
+      "time_display": "16:56 AEST",
+      "sources_inline": "scmp.com · bbc.co.uk · apnews.com · channelnewsasia.com"
+    },
+    {
+      "id": "b-cb45d10b4b65abb4",
+      "slug": "trump-administration-eases-federal-cannabis-rules-unlocking-tax-relief-4b65abb4",
+      "headline": "Trump administration eases federal cannabis rules, <em>unlocking tax relief</em> for industry",
+      "standfirst": "The White House has relaxed federal restrictions on medical marijuana, granting significant tax breaks to cannabis companies. The shift follows a year-long industry lobbying effort and marks a departure from traditional Republican policy on controlled substances.",
+      "body_html": "<p>The Trump administration has moved to ease federal regulations governing medical marijuana, a decision that delivers substantial tax advantages to cannabis operators and positions the sector for expanded investment. The regulatory shift represents the culmination of more than a year of sustained advocacy by industry groups seeking presidential intervention on a matter the Republican Party has historically resisted.</p><p>The new framework reduces federal compliance burdens on medical cannabis businesses, though the administration has not disclosed the precise scope of the regulatory changes. The tax relief component is expected to materially improve operating margins for companies that have faced punitive federal tax treatment under existing statutes, even in states where cannabis commerce is legal.</p><p>According to Politico, the cannabis industry mounted a deliberate campaign to secure White House backing, leveraging both economic arguments and shifting public sentiment on marijuana policy. The sector has long contended that federal-state regulatory misalignment imposes untenable costs and constrains access to banking services and capital markets.</p><p>The policy reversal carries implications beyond the cannabis vertical. It signals potential executive willingness to override agency orthodoxy in sectors where state-level legalisation has outpaced federal frameworks. Investment analysts will watch whether the tax changes trigger a repricing of publicly traded cannabis equities or accelerate consolidation among operators previously constrained by capital scarcity.</p><p>The administration has not indicated whether further deregulation—such as rescheduling cannabis under the Controlled Substances Act—is under consideration. Industry participants are likely to interpret the tax relief as a floor rather than a ceiling for future policy accommodation.</p>",
+      "vertical": "Business",
+      "topic": "U.S. cannabis deregulation",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "NYT Business",
+          "domain": "nytimes.com",
+          "url": "https://www.nytimes.com/2026/05/02/business/dealbook/cannabis-industry-trump.html",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "politico.com",
+          "domain": "politico.com",
+          "url": "https://www.politico.com/news/2025/12/18/how-the-cannabis-industry-leveraged-a-big-win-from-trump-00699174",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "NYT Business",
+      "origin_url": "https://www.nytimes.com/2026/05/02/business/dealbook/cannabis-industry-trump.html",
+      "score": 79,
+      "written_at": "2026-05-04T06:56:24+00:00",
+      "detected_at": "2026-05-04T06:13:27+00:00",
+      "verified_at": "2026-05-04T06:53:16+00:00",
+      "time_display": "16:56 AEST",
+      "sources_inline": "nytimes.com · politico.com"
+    },
+    {
+      "id": "b-a8ef27cf5983c9c4",
+      "slug": "china-leverages-ceasefire-diplomacy-with-iran-while-dual-use-exports-c-5983c9c4",
+      "headline": "China leverages ceasefire diplomacy with Iran while <em>dual-use exports</em> continue",
+      "standfirst": "Beijing brokered Iranian acceptance of a Pakistan-mediated ceasefire ahead of a planned Trump visit, even as Chinese firms export material with potential military applications to Tehran. The move positions China as both peacemaker and strategic supplier in the Middle East.",
+      "body_html": "<p>China played a decisive role in securing Iranian acceptance of a ceasefire publicly brokered by Pakistan, according to Iranian officials and subsequently confirmed by President Trump. Pakistani Prime Minister Shehbaz Sharif credited Beijing with support for the agreement, which came together in the hours preceding the announcement.</p><p>The diplomatic intervention precedes a scheduled Trump visit to Beijing and occurs against a backdrop of continued Chinese commercial activity with Iran. Chinese companies are exporting material that could be used by Iran's military, according to the New York Times, creating a dual posture in which Beijing acts as both mediator and supplier.</p><p>China has insulated itself against near-term disruption in energy supplies despite reliance on imports transiting the Strait of Hormuz, according to Foreign Affairs. The strategic calculus reflects Beijing's ability to maintain commercial ties with Tehran while positioning itself as an indispensable diplomatic actor in regional conflicts.</p><p>The ceasefire diplomacy demonstrates China's expanding role in Middle Eastern security architecture at a moment when U.S. military resources remain concentrated in the region. Beijing's willingness to engage both Washington and Tehran on conflict de-escalation while sustaining economic links to Iran signals a hedging strategy that preserves influence across competing axes.</p><p>Trump's forthcoming Beijing visit will test whether the ceasefire brokerage translates into broader U.S.-China coordination on Iran or remains a tactical gesture. The dual-use export activity suggests Beijing intends to maintain strategic ambiguity rather than align definitively with Western pressure campaigns on Tehran.</p>",
+      "vertical": "Affairs",
+      "topic": "China-Iran diplomatic positioning",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "NYT World",
+          "domain": "nytimes.com",
+          "url": "https://www.nytimes.com/2026/05/03/us/politics/trump-china-iran-war.html",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "bloomberg.com",
+          "domain": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-09/xi-helps-trump-on-iran-war-as-china-assists-with-ceasefire-bid",
+          "tier": "A",
+          "is_origin": false
+        },
+        {
+          "publisher": "foreignaffairs.com",
+          "domain": "foreignaffairs.com",
+          "url": "https://www.foreignaffairs.com/united-states/iran-war-win-china",
+          "tier": "C",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "NYT World",
+      "origin_url": "https://www.nytimes.com/2026/05/03/us/politics/trump-china-iran-war.html",
+      "score": 80,
+      "written_at": "2026-05-04T06:56:06+00:00",
+      "detected_at": "2026-05-04T06:12:24+00:00",
+      "verified_at": "2026-05-04T06:52:15+00:00",
+      "time_display": "16:56 AEST",
+      "sources_inline": "nytimes.com · bloomberg.com · foreignaffairs.com"
+    },
+    {
+      "id": "b-94870af43a962ba7",
+      "slug": "u-s-indictment-of-mexican-governor-tests-sheinbaum-s-cartel-strategy-3a962ba7",
+      "headline": "U.S. indictment of Mexican governor tests Sheinbaum's <em>cartel strategy</em>",
+      "standfirst": "The indictment of a sitting Mexican governor on cartel-linked charges has strained bilateral relations and forced President Claudia Sheinbaum into a public choice between domestic sovereignty claims and Washington's extradition pressure. Mexico extradited 37 cartel members this week as the Trump administration escalates enforcement demands.",
+      "body_html": "<p>The United States has indicted a Mexican state governor on charges tied to drug cartel activity, creating a diplomatic flashpoint that compels President Claudia Sheinbaum to navigate between anti-corruption credibility and resistance to perceived U.S. overreach. The case arrives as the Trump administration intensifies pressure on Mexico City to dismantle trafficking networks operating across the shared border.</p><p>Mexico's security ministry confirmed Tuesday it had extradited 37 cartel operatives to U.S. custody, according to PBS, a move that signals tactical cooperation even as the governor's indictment exposes friction over jurisdiction and sovereignty. The extraditions represent one of the larger single transfers of cartel suspects in recent months, occurring within days of the indictment's public disclosure.</p><p>Sheinbaum faces a decision with limited upside: defending the governor risks appearing complicit in corruption that has long eroded state capacity in border regions, while acquiescing to extradition invites domestic criticism that she is ceding judicial authority to Washington. The governor's indictment is unusual in targeting a sitting state executive, a category of official historically shielded from U.S. prosecution by diplomatic convention and Mexico's own legal protections for officeholders.</p><p>The case underscores the structural challenge facing both governments. Cartel penetration of Mexican state institutions remains extensive, particularly in regions where trafficking routes converge. U.S. prosecutors have increasingly bypassed diplomatic channels to indict Mexican officials, a practice Mexico's previous administration resisted. Sheinbaum, in office since October, has not yet articulated a formal doctrine on extradition of officials, leaving her response to this case as a potential precedent.</p><p>The Trump administration's renewed focus on cartel enforcement includes threats of tariffs and border restrictions if Mexico does not accelerate interdiction efforts. The 37 extraditions may serve as a down payment on cooperation, but the governor's case will test whether Sheinbaum can satisfy Washington's demands without triggering nationalist backlash or undermining her own anti-corruption platform.</p>",
+      "vertical": "Affairs",
+      "topic": "US-Mexico cartel enforcement",
+      "tier": "II",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "NYT World",
+          "domain": "nytimes.com",
+          "url": "https://www.nytimes.com/2026/05/03/world/americas/mexico-sinaloa-corruption.html",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "pbs.org",
+          "domain": "pbs.org",
+          "url": "https://www.pbs.org/newshour/world/mexico-sends-37-drug-cartel-members-to-u-s-in-latest-offer-to-trump-administration",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "NYT World",
+      "origin_url": "https://www.nytimes.com/2026/05/03/world/americas/mexico-sinaloa-corruption.html",
+      "score": 81,
+      "written_at": "2026-05-04T06:55:49+00:00",
+      "detected_at": "2026-05-04T06:11:18+00:00",
+      "verified_at": "2026-05-04T06:52:01+00:00",
+      "time_display": "16:55 AEST",
+      "sources_inline": "nytimes.com · pbs.org"
+    },
+    {
+      "id": "b-d4cc46eccd08d70c",
+      "slug": "us-to-begin-guided-transit-operation-for-stranded-vessels-in-strait-of-cd08d70c",
+      "headline": "US to begin <em>guided transit</em> operation for stranded vessels in Strait of Hormuz",
+      "standfirst": "President Trump announced a Monday start for what he termed a humanitarian effort to extract ships from the Iran-controlled waterway. The move follows reported attacks on two vessels near the strait as Washington describes ongoing talks with Tehran as very positive.",
+      "body_html": "<p>The United States will commence operations on Monday to guide commercial vessels out of the Strait of Hormuz, President Donald Trump said, characterising the effort as humanitarian in nature. Trump provided limited operational detail on what could constitute a significant naval undertaking involving hundreds of ships and an estimated 20,000 seafarers currently in or near the waterway.</p><p>The announcement follows reports of attacks on two vessels in the vicinity of the strait, though Trump did not explicitly link the incidents to the planned extraction operation. Iran maintains de facto control over the Strait of Hormuz, through which roughly one-fifth of global oil supply transits.</p><p>Trump described concurrent diplomatic engagement with Iran as \"very positive discussions,\" according to the Financial Times, though he did not specify whether the guided-transit operation had been coordinated with Tehran or would proceed unilaterally. The White House has not clarified whether US naval assets will enter Iranian territorial waters, what rules of engagement will govern potential confrontations, or how long the operation is expected to last.</p><p>The strait has been a flashpoint in US-Iran relations for decades, with periodic threats of closure by Tehran typically prompting international naval escorts. The scale Trump suggested — potentially affecting hundreds of commercial vessels — would represent the largest such operation since the 1980s tanker war. Energy markets will watch whether the operation proceeds as stated and whether Iran acquiesces or contests the US naval presence.</p>",
+      "vertical": "Affairs",
+      "topic": "Strait of Hormuz transit operation",
+      "tier": "I",
+      "status_tag": "DEVELOPING",
+      "sources": [
+        {
+          "publisher": "Financial Times",
+          "domain": "ft.com",
+          "url": "https://www.ft.com/content/7ec081ca-3b1d-4fbe-b29a-a3b0b08efc41",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "apnews.com",
+          "domain": "apnews.com",
+          "url": "https://apnews.com/article/iran-us-war-ceasefire-negotiations-strait-454006a0a9bb19a45a2f299c0869cefb",
+          "tier": "A",
+          "is_origin": false
+        },
+        {
+          "publisher": "npr.org",
+          "domain": "npr.org",
+          "url": "https://www.npr.org/2026/05/03/nx-s1-5809536/trump-strait-hormuz",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "pbs.org",
+          "domain": "pbs.org",
+          "url": "https://www.pbs.org/newshour/world/trump-says-u-s-will-help-guide-stranded-ships-from-strait-of-hormuz-starting-monday",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "Financial Times",
+      "origin_url": "https://www.ft.com/content/7ec081ca-3b1d-4fbe-b29a-a3b0b08efc41",
+      "score": 83,
+      "written_at": "2026-05-04T06:55:36+00:00",
+      "detected_at": "2026-05-04T06:01:46+00:00",
+      "verified_at": "2026-05-04T06:12:00+00:00",
+      "time_display": "16:55 AEST",
+      "sources_inline": "ft.com · apnews.com · npr.org · pbs.org"
+    },
+    {
+      "id": "b-f1342e460017d397",
+      "slug": "pentagon-deployed-ai-accelerated-targeting-in-iran-strikes-compressing-0017d397",
+      "headline": "Pentagon deployed <em>AI-accelerated targeting</em> in Iran strikes, compressing kill-chain cycle",
+      "standfirst": "US military struck over 2,000 targets across Iran in four days using artificial intelligence systems to accelerate target identification and approval workflows. Anthropic's Claude model reportedly supported the operation, marking a operational shift in how the Pentagon prosecutes large-scale strike campaigns.",
+      "body_html": "<p>The US Department of Defense executed strikes against more than 2,000 targets in Iran over a four-day period, employing artificial intelligence systems to compress the decision cycle from intelligence collection to weapon release. The tempo represents a departure from prior strike campaigns in scale and speed.</p><p>AI models processed intelligence streams to identify targets and route strike packages through legal and operational approval chains. Anthropic's Claude system was used during the operation, according to reporting, though the specific tasks assigned to the model have not been disclosed by the Pentagon. The technology reduces the time required to move from target acquisition to authorisation and launch—a sequence military planners call the kill chain.</p><p>The deployment reflects broader Pentagon investment in machine-learning tools designed to manage the volume and velocity of battlefield data. Traditional targeting workflows rely on human analysts to correlate intelligence from sensors, signals intercepts, and imagery. AI systems automate portions of this correlation work, surfacing candidate targets and pre-populating strike requests with supporting data.</p><p>The Iran operation's scale—2,000 targets in 96 hours—would strain conventional staffing models. By comparison, the 2003 invasion of Iraq involved approximately 1,700 air-to-ground strikes in the first two days, a pace sustained by a larger force structure and longer planning windows. The four-day Iran campaign suggests the Pentagon now operates with different assumptions about the time required to generate and prosecute targets at volume.</p><p>No public statement from the Department of Defense has detailed the AI systems' role or the safeguards applied to automated recommendations. The use of commercial large language models in kinetic operations raises questions about model transparency, error rates in target classification, and the locus of human decision authority within accelerated workflows.</p>",
+      "vertical": "Affairs",
+      "topic": "AI-enabled military targeting",
+      "tier": "I",
+      "status_tag": "CONFIRMED",
+      "sources": [
+        {
+          "publisher": "Nikkei Asia",
+          "domain": "asia.nikkei.com",
+          "url": "https://asia.nikkei.com/spotlight/comment/how-ai-speeds-kill-chain-in-us-attacks-on-iran",
+          "tier": "B",
+          "is_origin": true
+        },
+        {
+          "publisher": "afr.com",
+          "domain": "afr.com",
+          "url": "https://www.afr.com/world/middle-east/how-ai-kill-chains-are-speeding-up-the-us-war-on-iran-20260313-p5oa3w",
+          "tier": "B",
+          "is_origin": false
+        },
+        {
+          "publisher": "theguardian.com",
+          "domain": "theguardian.com",
+          "url": "https://www.theguardian.com/technology/2026/mar/03/iran-war-heralds-era-of-ai-powered-bombing-quicker-than-speed-of-thought",
+          "tier": "B",
+          "is_origin": false
+        }
+      ],
+      "origin_publisher": "Nikkei Asia",
+      "origin_url": "https://asia.nikkei.com/spotlight/comment/how-ai-speeds-kill-chain-in-us-attacks-on-iran",
+      "score": 83,
+      "written_at": "2026-05-04T06:55:20+00:00",
+      "detected_at": "2026-05-04T06:24:09+00:00",
+      "verified_at": "2026-05-04T06:51:45+00:00",
+      "time_display": "16:55 AEST",
+      "sources_inline": "asia.nikkei.com · afr.com · theguardian.com"
+    },
     {
       "id": "b-46bb18a849504895",
       "slug": "israel-reports-91-hostages-from-october-7-attack-remain-in-gaza-34-con-49504895",
